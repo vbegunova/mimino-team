@@ -10,12 +10,14 @@ h4,
 h5,
 h6,
 p,
-ul {
+ul,
+ol {
     margin: 0;
     padding: 0;
 }
 
-ul {
+ul,
+ol {
     list-style: none;
 }
 
@@ -27,7 +29,6 @@ textarea {
 a,
 button {
     text-decoration: none;
-    color: inherit;
     cursor: pointer;
 }
 
