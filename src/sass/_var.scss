@@ -1,0 +1,22 @@
+:root {
+    // GENERIC
+    --color-white: rgba(255, 255, 255, 1);
+    --color-black: rgba(0, 0, 0, 1);
+    --color-accent: rgba(243, 198, 83, 1); // Accent yellow
+    // TEXT
+    --color-text-base: rgba(122, 122, 122, 1);
+    --color-text-light: rgba(180, 180, 180, 1);
+    --color-text-dark: rgba(73, 72, 72, 1);
+    --color-text-brand: rgba(199, 144, 2, 1); // Brown
+    --color-text-silver: rgba(229, 229, 229, 1);
+    //BACKGROUND
+    --color-background-main: rgba(255, 253, 238, 1); // HEX #FFFDEE
+    --color-background-dark: rgba(240, 236, 214, 1); // HEX #F0ECD6
+    --color-background-tint: rgba(0, 0, 0, 0.65); // to darken background images
+    // ICONS
+    --color-icon-accent: rgba(243, 198, 83, 0.7);
+    // SPECIFIC SECTIONS
+    --color-contacts-grey: rgb(130, 130, 130); // HEX #828282
+    --color-footer-background: rgba(14, 12, 7, 1); // HEX #0E0C07
+    --color-modal-placeholder: rgba(128, 128, 128, 1);
+}
