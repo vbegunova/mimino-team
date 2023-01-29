@@ -1,0 +1,62 @@
+.about-kitchen {
+    background-color: var(--color-background-main);
+}
+
+.restaurant {
+    padding-top: 100px;
+    padding-bottom: 28px;
+}
+
+.decor-par {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    line-height: calc(23 / 20);
+    color: var(--color-text-light);
+    margin-bottom: 12px;
+}
+
+.rest-title {
+    margin-bottom: 12px;
+
+    font-family: "FilmP3";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: calc(43 / 40);
+    letter-spacing: 0.3em;
+    color: var(--color-text-dark);
+    text-transform: uppercase;
+}
+
+.rest-text {
+    width: 258px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(15 / 12);
+    letter-spacing: 0.02em;
+    color: #7a7a7a;
+    margin-bottom: 28px;
+}
+
+.man-img {
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.meet-img {
+    margin-right: 20px;
+}
+
+.box-buttom {
+    display: flex;
+    align-items: center;
+}
+
+.rest-info {
+    width: 163px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(15 / 12);
+    letter-spacing: 0.02em;
+    color: var(--color-text-brand);
+}
