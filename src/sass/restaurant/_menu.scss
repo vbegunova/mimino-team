@@ -1,0 +1,115 @@
+.restaurant-menu {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: var(--color-background-main);
+}
+
+.menu-title {
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: calc(37 / 32);
+  color: var(--color-black);
+  margin-bottom: 32px;
+}
+.menu-table {
+  margin-bottom: 32px;
+}
+.menu-section {
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(32 / 20);
+  color: var(--color-black);
+  margin-bottom: 16px;
+  text-align: start;
+}
+.food-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+}
+.ingredients {
+  width: 200px;
+  padding-right: 30px;
+  font-size: 10px;
+  line-height: calc(12 / 10);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+}
+.menu-quantity {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.menu-price {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+}
+.food-name {
+  font-weight: 500;
+}
+.menu-tadle {
+  min-width: 100%;
+  margin-bottom: 16px;
+}
+
+.menu-quantity {
+  // width: 70px;
+  width: 39px;
+  text-align: center;
+  white-space: nowrap;
+}
+.menu-price {
+  // width: 70px;
+  width: 60px;
+  text-align: center;
+  white-space: nowrap;
+}
+.menu-butt {
+  margin-top: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  width: 236px;
+  height: 48px;
+  //   left: 89px;
+  //   top: 3292px;
+  background: var(--color-black);
+  border: 2px solid var(--color-background-main);
+  border-radius: 25px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.02em;
+  color: var(--color-accent);
+}
+.menu-butt:hover,
+.menu-butt:focus {
+  background: #ffffff;
+  border: 2px solid #f3c653;
+  color: #f3c653;
+}
+// table {
+//   tr {
+//     td {
+//       color: red;
+//       &:nth-child(2) {
+//         text-align: center;
+//       }
+//       &:nth-child(2) {
+//         text-align: center;
+//         color: green;
+//       }
+//     }
+//   }
+// }
