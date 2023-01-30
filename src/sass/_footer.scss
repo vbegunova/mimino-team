@@ -1,26 +1,5 @@
-/* FOOTER MIMINO */
 .footer {
     background-color: var(--color-footer-background);
-}
-
-/* PHONE */
-@media screen and (min-width:414px) {
-    .footer .container {
-        width: 414px;
-    }
-}
-/* TABLET */
-@media screen and (min-width:1024px) {
-    .footer .container {
-        width: 1024px;
-    }
-}
-
-/* DESKTOP */
-@media screen and (min-width:1280px) {
-    .footer .container {
-        width: 1280px;
-    }
 }
 
 .footer .container {
@@ -29,10 +8,8 @@
     padding-left: 59px;
     padding-right: 30px;
     display: flex;
-    justify-content: right;
 }
 
-/* TABLET */
 @media screen and (min-width:1024px) {
     .footer .container {
         padding-top: 80px;
@@ -42,11 +19,38 @@
     }
 }
 
-/* DESKTOP */
 @media screen and (min-width:1280px) {
     .footer .container {
         padding-left: 216px;
         padding-right: 186px;
+    }
+}
+
+.footer-logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+
+    font-family: 'FilmP3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.07;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+
+    color: var(--color-accent);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+    color: var(--color-icon-accent);
+}
+
+/* TABLET */
+@media screen and (min-width: 1024px) {
+    .footer-logo {
+        font-size: 64px;
     }
 }
 
@@ -56,115 +60,20 @@
     }
 }
 
-.footer-margin {
-    margin-bottom: 16px;
-}
-
-.footer-margin-tabd {
-    margin-bottom: 16px;
-    border: 0.5px solid var(--color-accent);
-    border-radius: 2px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 12px;
-    padding-right: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition-property: border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-margin-tabd:hover,
-.footer-margin-tabd:focus {
-    border: 0.5px solid var(--color-icon-accent);
-}
-
-.footer-margin-tabd:last-child {
-    margin-bottom: 0px;
-}
-
-.footer-nav-tabd {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: var(--color-accent);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 18px;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-nav-tabd:hover,
-.footer-nav-tabd:focus {
-    color: var(--color-icon-accent);
-}
-
-/* TABLET */
-@media screen and (max-width:1023.98px) {
-    .footer-list-social {
-        display: none;
-    }
-}
-
-/* TABLET */
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
     .footer-list {
         margin-right: 137px;
     }
 }
 
-/* DESKTOP */
-@media screen and (min-width:1280px) {
+@media screen and (min-width: 1280px) {
     .footer-list {
         margin-right: 199px;
     }
 }
 
-.main-logo {
-    font-family: 'FilmP3';
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 1.07;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    margin-right: 85px;
-    margin-right: auto;
-    color: var(--color-accent);
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.main-logo:hover,
-.main-logo:focus {
-    color: var(--color-icon-accent);
-}
-
-/* TABLET */
-@media screen and (min-width:1024px) {
-    .main-logo {
-        font-size: 64px;
-        margin-right: 163px;
-        align-items: center;
-    }
-}
-
-/* DESKTOP */
-@media screen and (min-width:1280px) {
-    .main-logo {
-        margin-right: 231px;
-    }
+.footer-margin {
+    margin-bottom: 16px;
 }
 
 .footer-nav {
@@ -173,11 +82,9 @@
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-decoration: none;
+
     color: var(--color-accent);
-    transition-property:color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-nav:hover,
@@ -185,35 +92,69 @@
     color: var(--color-icon-accent);
 }
 
-.footer-svg {
-    display: flex;
-    gap: 23px;
-}
-
-.btn-config-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    fill: var(--color-accent);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.btn-config-footer:hover,
-.btn-config-footer:focus {
-    fill: var(--color-icon-accent);
-}
-
-.social-btn-footer {
-    width: 24px;
-    height: 24px;
-}
-
-/* TABLET */
 @media screen and (min-width:1024px) {
     .social {
         display: none;
     }
 }
-/* FOOTER MIMINO */
+
+.footer-svg {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-config-footer-mob {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    color: var(--color-accent);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-config-footer-mob:hover {
+    color: var(--color-icon-accent);
+}
+
+.social-btn-footer {
+    fill: currentColor;
+}
+
+@media screen and (max-width: 1023.98px) {
+    .footer-list-social {
+        display: none;
+    }
+}
+
+.footer-margin-tabd:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.footer-nav-tabd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 8px 12px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--color-accent);
+    border: 0.5px solid var(--color-accent);
+    border-radius: 2px;
+    fill: var(--color-accent);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-nav-tabd:hover,
+.footer-nav-tabd:focus {
+    color: var(--color-icon-accent);
+    fill: var(--color-icon-accent);
+    border: 0.5px solid var(--color-icon-accent);
+}
+
+.btn-config-footer {
+    fill: currentColor;
+}
