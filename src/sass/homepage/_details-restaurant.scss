@@ -1,5 +1,11 @@
 //  Common styles
 
+.restaurant-descr-img {
+  height: 100%;
+
+  // outline: 2px dashed goldenrod;
+}
+
 .homepage.btn {
   background-color: transparent;
   border: none;
@@ -111,7 +117,7 @@
 
 //  Description of the section
 
-.homepage.restaurant-text-box {
+.restaurant-text-box {
   max-width: 259px;
 
   margin-left: auto;
@@ -150,7 +156,7 @@
 // Tablet version
 
 @media screen and (min-width: 1024px) {
-  .homepage.restaurant-text-box {
+  .restaurant-text-box {
     max-width: 696px;
     margin-bottom: 40px;
   }
@@ -172,9 +178,10 @@
 }
 
 // Desktop version
-@media screen and (min-width: 1024px) {
-  .homepage.restaurant-text-box {
-    width: 857px;
+@media screen and (min-width: 1280px) {
+  .restaurant-text-box {
+    margin-right: 161px;
+    
   }
 }
 
@@ -195,15 +202,12 @@
 @media screen and (max-width: 1023px) {
   .homepage.gallery-list {
     position: relative;
+    gap: 20px;
   }
 
   .homepage.gallery-item {
     min-width: 274px;
     max-height: 270px;
-  }
-
-  .homepage.gallery-item:not(:first-child) {
-    margin-left: 20px;
   }
 }
 
@@ -213,7 +217,7 @@
   .homepage.gallery-list {
     margin-left: auto;
     margin-bottom: 24px;
-
+    gap: 34px;
     width: 662px;
   }
 
@@ -222,7 +226,7 @@
   }
 
   .homepage.gallery-item:not(:first-child) {
-    margin-left: 34px;
+ 
 
     width: 162px;
   }
@@ -234,11 +238,10 @@
   .homepage.gallery-list {
     transform: translateX(33px);
     min-width: 874px;
+    gap: 86px;
   }
 
-  .homepage.gallery-item:not(:first-child) {
-    margin-left: 86px;
-  }
+ 
 
   .homepage.gallery-item:nth-child(n + 3) {
     width: 270px;

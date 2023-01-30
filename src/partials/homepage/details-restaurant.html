@@ -11,49 +11,103 @@
 
     <ul class="gallery-list homepage">
       <li class="gallery-item homepage">
-        <img
-          width="274"
-          height="270"
-          srcset="
-            ./images/homepage/details-restaurant/slider/details-restaurant-slider-1_274.jpg 274w,
-            ./images/homepage/details-restaurant/slider/details-restaurant-slider-1_548.jpg 548w,
-            ./images/homepage/details-restaurant/slider/details-restaurant-slider-1_270.jpg 270w,
-            ./images/homepage/details-restaurant/slider/details-restaurant-slider-1_540.jpg 540w
-          "
-          sizes="(min-width: 1280px) 270px, (min-width: 1024px) 270px, (min-width: 414px) 274px, 100vw"
-          src="./images/homepage/details-restaurant/slider/details-restaurant-slider-1_274.jpg"
-          alt="Steak"
-        />
+        <picture>
+          <source
+            media="(max-width: 1023px)"
+            srcset="
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-1_274.jpg 274w,
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-1_548.jpg 548w
+            "
+          />
+          <source
+            media="(min-width: 1024px)"
+            srcset="
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-1_270.jpg 270w,
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-1_540.jpg 540w
+            "
+          />
+
+          <img
+            class="restaurant-descr-img"
+            width="274"
+            height="270"
+            sizes="(min-width: 1280px) 270px, (min-width: 1024px) 162px, 100vw"
+            src="./images/homepage/details-restaurant/slider/details-restaurant-slider-1_274.jpg"
+            srcset="
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-1_274.jpg 274w,
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-1_548.jpg 548w
+            "
+            alt="Steak"
+          />
+        </picture>
       </li>
       <li class="gallery-item homepage">
-        <img
-          width="274"
-          height="270"
-          srcset="
-            ./images/homepage/details-restaurant/slider/details-restaurant-slider-2_274.jpg 274w,
-            ./images/homepage/details-restaurant/slider/details-restaurant-slider-2_548.jpg 548w,
-            ./images/homepage/details-restaurant/slider/details-restaurant-slider-2_162.jpg 162w,
-            ./images/homepage/details-restaurant/slider/details-restaurant-slider-2_324.jpg 324w
-          "
-          sizes="(min-width: 1280px) 162px, (min-width: 1024px) 162px, (min-width: 414px) 274px, 100vw"
-          src="./images/homepage/details-restaurant/slider/details-restaurant-slider-2_274.jpg"
-          alt="Barbeque"
-        />
+        <picture>
+          <source
+            media="(max-width: 1023px)"
+            srcset="
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-2_274.jpg 274w,
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-2_548.jpg 548w
+            "
+          />
+          <source
+            media="(min-width: 1024px)"
+            srcset="
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-2_162.jpg 162w,
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-2_324.jpg 324w
+            "
+          />
+
+          <img
+            class="restaurant-descr-img"
+            width="274"
+            height="270"
+            sizes="(min-width: 1280px) 270px, (min-width: 1024px) 162px, 100vw"
+            src="./images/homepage/details-restaurant/slider/details-restaurant-slider-2_274.jpg"
+            srcset="
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-2_274.jpg 274w,
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-2_548.jpg 548w
+            "
+            alt="Barbeque"
+          />
+        </picture>
       </li>
       <li class="gallery-item homepage">
-        <img
-          width="274"
-          height="270"
-          srcset="
-            ./images/homepage/details-restaurant/slider/details-restaurant-slider-3_162.jpg 162w,
-            ./images/homepage/details-restaurant/slider/details-restaurant-slider-3_324.jpg 324w,
-            ./images/homepage/details-restaurant/slider/details-restaurant-slider-3_270.jpg 270w,
-            ./images/homepage/details-restaurant/slider/details-restaurant-slider-3_540.jpg 540w
-          "
-          sizes="(min-width: 1280px) 270px, (min-width: 1024px) 162px, 100vw"
-          src="./images/homepage/details-restaurant/slider/details-restaurant-slider-3_162.jpg"
-          alt="Healthy Food"
-        />
+        <picture>
+          <source
+            media="(max-width: 1023px)"
+            srcset="
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-3_270.jpg 270w,
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-3_540.jpg 540w
+            "
+          />
+          <source
+            media="(max-width: 1279px)"
+            srcset="
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-3_162.jpg 162w,
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-3_324.jpg 324w
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-3_270.jpg 270w,
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-3_540.jpg 540w
+            "
+          />
+          <img
+            class="restaurant-descr-img"
+            width="274"
+            height="270"
+            sizes="(min-width: 1280px) 270px, (min-width: 1024px) 162px, 100vw"
+            src="./images/homepage/details-restaurant/slider/details-restaurant-slider-3_162.jpg"
+            srcset="
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-3_162.jpg 162w,
+              ./images/homepage/details-restaurant/slider/details-restaurant-slider-3_324.jpg 324w
+            "
+            alt="Healthy Food"
+          />
+        </picture>
       </li>
     </ul>
     <ul class="gallery-navigation-list homepage">
