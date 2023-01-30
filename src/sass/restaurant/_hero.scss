@@ -1,0 +1,54 @@
+.hero{
+    
+    height: 740px;
+    padding-top: 64px;
+    padding-bottom: 20px;
+}
+@media screen and (min-width:414px){
+    .hero{
+       
+    }
+}
+.hero-restaurant {
+    border-color: #F3C653;
+    margin-left: 215px;
+    width: 210px;
+    height: 47px;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    margin-bottom: 70px;
+}
+.map-pic {
+    position: absolute;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-bottom: 14px;
+}
+.adress {
+    color: solid #E5E5E5;
+    padding-left: 28px;
+    display: flex;
+    font-family: Montserrat;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 15px;
+    height: 47px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+}
+.hero-title {
+    letter-spacing: .3em;
+    color: var(--color-white);
+    text-transform: uppercase;
+    background-color: #000;
+    font-family: FilmP3;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1.08333;
+    width: 303px;
+    height: 103px;
+    margin: auto;
+    margin-bottom: 24px;
+}
+.name-service {
+    text-align: center;
+}
