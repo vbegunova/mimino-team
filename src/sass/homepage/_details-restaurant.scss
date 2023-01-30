@@ -264,14 +264,14 @@
 
 .homepage.arrow-left,
 .homepage.arrow-right {
-  --color1: var(--color-white);
+  fill: var(--color-white);
 }
 
 .homepage.arrow-left:hover,
 .homepage.arrow-right:hover,
 .homepage.arrow-left:active,
 .homepage.arrow-right:active {
-  --color1: var(--color-accent);
+  fill: var(--color-accent);
 }
 
 .homepage.gallery-navigation-item:last-child {
