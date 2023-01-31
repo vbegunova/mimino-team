@@ -1,7 +1,11 @@
 .background-menu {
-  background-color: var(--color-background-dark);
+  background-color: var(--color-background-main);
 }
-
+@media (min-width: 1024px) {
+  .background-menu {
+    background-color: var(--color-background-dark);
+  }
+}
 .restaurant-menu {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -32,7 +36,6 @@
 @media (min-width: 1024px) {
   .top-menu {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
   }
 }
@@ -40,7 +43,6 @@
 @media (min-width: 1024px) {
   .bot-menu {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
   }
 }
@@ -59,10 +61,11 @@
 
 .menu-table {
   min-width: 100%;
+  margin-bottom: 16px;
 }
 @media (min-width: 1024px) {
   .menu-table {
-    min-width: 421px;
+    min-width: 420px;
     margin-bottom: 20px;
   }
 }
@@ -71,9 +74,26 @@
     min-width: 485px;
   }
 }
-.menu-table + .menu-table {
-  margin-top: 16px;
-}
+// .menu-table + .menu-table {
+//   margin-top: 16px;
+// }
+// .menu-table {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   max-width: 100%;
+// }
+// .menu-table {
+//   outline: 1px solid red;
+//   margin-bottom: 16px;
+//   border-spacing: 0 8px;
+// }
+
+// @media (min-width: 1289px) {
+//   .menu-table {
+//     border-spacing: 0 12px;
+//   }
+// }
 
 .menu-section {
   font-family: 'Times New Roman';
@@ -98,6 +118,7 @@
   }
 }
 .food-name {
+  // display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(17 / 14);
@@ -111,27 +132,44 @@
     line-height: calc(20 / 16);
   }
 }
-
+// .pad-decor {
+//   padding-bottom: 18px;
+// }
 .ingredients {
+  justify-content: flex-start;
   width: 200px;
-  padding-right: 30px;
+  padding-right: 20px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-size: 10px;
   line-height: calc(12 / 10);
   letter-spacing: 0.02em;
   color: var(--color-black);
-  margin-bottom: 8px;
+}
+@media (min-width: 1024px) {
+  .ingredients {
+    padding-right: 15px;
+    padding-bottom: 12px;
+  }
 }
 @media (min-width: 1289px) {
   .ingredients {
-    margin-bottom: 12px;
+    padding-right: 35px;
+    padding-bottom: 12px;
+    // margin-bottom: 12px;
   }
 }
 .menu-quantity {
+  // padding-right: 32px;
+  width: 39px;
+  text-align: center;
+  white-space: nowrap;
   font-weight: 300;
   font-size: 14px;
   line-height: calc(17 / 14);
   letter-spacing: 0.02em;
   color: #000000;
+  // padding-right: 32px;
 }
 
 .menu-price {
@@ -141,19 +179,22 @@
   letter-spacing: 0.02em;
   color: var(--color-black);
 }
+@media (min-width: 1289px) {
+  .menu-price {
+    font-size: 16px;
+    line-height: calc(20 / 16);
+  }
+}
 
+.padd-zero {
+  padding-bottom: 0;
+}
 .food-name {
   font-weight: 500;
 }
 
 .menu-tadle {
   margin-bottom: 16px;
-}
-
-.menu-quantity {
-  width: 39px;
-  text-align: center;
-  white-space: nowrap;
 }
 
 .menu-price {
