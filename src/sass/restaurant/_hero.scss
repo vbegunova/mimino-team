@@ -71,6 +71,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     padding-right: 0;
 }
 }
+@media screen and (min-width:1024px){
+    .container-hero-first {
+        padding-top: 88px;
+    }
+}
 .hero-restaurant-first {
     border-color: #F3C653;
     margin-left: 189px;
@@ -79,14 +84,36 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     border: 1px solid rgba(243, 198, 83, 0.7);
     margin-bottom: 70px;
 }
+@media screen and (min-width:1024px){
+    .hero-restaurant-first {
+        position: absolute;
+        margin-top: 570px;
+        margin-bottom: 64px;
+        margin-left: 47px;
+        margin-right: 692px;
+        width: 285px;
+        height: 56px;
+    }
+}
 .map-pic-hero-restaurant {
     position: absolute;
     padding-top: 13px;
     padding-left: 5px;
     padding-bottom: 14px;
 }
+@media screen and (min-width:1024px){
+    .hero-restaurant-svg {
+        padding-right: 5px;
+    }
+}
 .hero-restaurant-svg {
     fill: #F3C653;
+}
+@media screen and (min-width:1024px){
+    .hero-restaurant-svg {
+    width: 24px;
+    height: 24px;
+    }
 }
 .adress-hero-restaurant {
     color: #E5E5E5;
@@ -99,6 +126,15 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     height: 47px;
     padding-top: 8px;
     padding-bottom: 9px;
+}
+@media screen and (min-width:1024px){
+    .adress-hero-restaurant {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #E5E5E5;  
+    }
 }
 .hero-restaurant-title {
     letter-spacing: .3em;
@@ -113,6 +149,14 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     margin: auto;
     margin-bottom: 24px;
 }
+@media screen and (min-width:1024px){
+    .hero-restaurant-title {
+    width: 404px;
+    height: 138px;
+    font-size: 128px;
+    margin-bottom: 16px;
+    }
+}
 .hero-restaurant-name-service {
     text-align: center;
     font-family: 'Montserrat';
@@ -123,6 +167,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 40px;
+}
+@media screen and (min-width:1024px){
+    .hero-restaurant-name-service {
+    font-size: 20px;
+    margin-bottom: 56px;
+    }
 }
 .hero-restaurant-name-service-sl {
     text-align: center;
@@ -136,8 +186,19 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     color: #FFFFFF;
     margin-bottom: 113px;
 }
+@media screen and (min-width:1024px){
+    .hero-restaurant-name-service-sl {
+        font-size: 36px;
+        margin-bottom: 145px;
+    }
+}
 .hero-restaurant-buttons {
     text-align: center;
+}
+@media screen and (min-width:1024px){
+    .hero-restaurant-buttons {
+        display: flex;
+    }
 }
 .button-style-hero-restaurant {
     box-sizing: border-box;
@@ -155,6 +216,15 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     letter-spacing: 0.02em;
     color: #F3C653;
 }
+@media screen and (min-width:1024px){
+    .button-style-hero-restaurant {
+    background: #000000;
+    position: absolute;
+    margin-left: 475px;
+    column-gap: 40px;
+    row-gap: 40px ;
+    }
+} 
 .social-media-hero-restaurant {
     display: flex;
     gap: 24px;
@@ -162,6 +232,14 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     height: 24px;
     margin-top: 34px;
     padding-left: 15px;
+}
+@media screen and (min-width:1024px){
+    .social-media-hero-restaurant {
+        position: absolute;
+        margin-top: auto;
+        margin-left: 47px;
+        padding-left: 0px;
+    }
 }
 .hero-restaurant-svg{
     fill: rgba(243, 198, 83, 0.7);
