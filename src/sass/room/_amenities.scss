@@ -78,7 +78,7 @@
 
 
 .button {
-    width: 384px;
+    width: 434px;
     height: 64px;
     box-sizing: border-box;
     background: #000000;
@@ -100,9 +100,13 @@
 
 
 .arrow-link {
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    text-decoration: none;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
     color: #C79002;
 }
 .arrow-link:hover {
@@ -110,8 +114,8 @@
 }
 
 .arrow {
-    width: 22px;
-    height: 12px;
+    width: 24px;
+    height: 24px;
     margin-left: 18px;
 
     color: #C79002;
