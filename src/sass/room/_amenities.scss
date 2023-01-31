@@ -118,7 +118,9 @@
     height: 24px;
     margin-left: 18px;
 
-    color: #C79002;
+    fill: #C79002;
+
+    outline: 1px solid tomato;
 }
 .arrow:hover {
     color: #F3C653;
