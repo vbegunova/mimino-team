@@ -82,7 +82,7 @@
 .homepage-contacts__content {
   display: grid;
   align-items: center;
-  justify-items: left;
+  justify-items: stretch;
   grid-template-columns: 100px 1fr;
   row-gap: 16px;
   column-gap: 26px;
