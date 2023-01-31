@@ -2,26 +2,36 @@
     height: 740px;
     padding-top: 64px;
     padding-bottom: 21px;
-    background-color: rgba(0, 0, 0, 0.65);
     background-position: center;
     background-size: cover;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+    );
      /* Mobile screen <=414px */
-     background-image: 
-     url(/src/images/homepage/hero/hero-img_mob@1x.jpg);
+     /*background-image: 
+     url(/src/images/homepage/hero/hero-img_mob@1x.jpg);*/
+     background-image:  linear-gradient(180deg, #000000 0%, 
+     rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%),
+   url(/src/images/homepage/hero/hero-img_mob@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2),
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
 .restaurant-hero-first {
-   background-image: 
+   /*background-image: 
+     url(/src/images/homepage/hero/hero-img_mob@2x.jpg);*/
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), 
+     rgba(0, 0, 0, 0.65)), 
      url(/src/images/homepage/hero/hero-img_mob@2x.jpg);
-}
+    }
 }
 /* Mobile screen >=414px */
 @media screen and (min-width:414px) {
     .restaurant-hero-first {
-        background-image: 
+        background-image:  linear-gradient(180deg, #000000 0%, 
+     rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%),
         url(/src/images/homepage/hero/hero-img_tab@1x.jpg);
     }
 }
@@ -31,14 +41,16 @@ screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 414px),
 screen and (min-resolution: 192dpi) and (min-width: 414px),
 screen and (min-resolution: 2dppx) and (min-width: 414px) {
     .restaurant-hero-first {
-        background-image: 
+        background-image:  linear-gradient(180deg, #000000 0%, 
+     rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%),
         url(/src/images/homepage/hero/hero-img_tab@2x.jpg);
     }
 }
 /* screen >1024px */
 @media screen and (min-width:1024px) {
     .restaurant-hero-first {
-        background-image: 
+        background-image:  linear-gradient(180deg, #000000 0%, 
+     rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%),
         url(/src/images/homepage/hero/hero-img_desk@1x.jpg);
     }
 }
@@ -48,7 +60,8 @@ screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px),
 screen and (min-resolution: 192dpi) and (min-width: 1024px),
 screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     .restaurant-hero-first {
-        background-image: 
+        background-image:  linear-gradient(180deg, #000000 0%, 
+     rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%),
         url(/src/images/homepage/hero/hero-img_desk@2x.jpg);
     }
 }
