@@ -1,6 +1,7 @@
 .triple {
     padding-top: 32px; 
     padding-bottom: 32px;
+    overflow-x: hidden;
 
     background-color: var(--color-background-dark);
 }
@@ -55,7 +56,7 @@
 }
 
 .triple__description {
-    width: 302px;
+    width: 303px;
     margin-left: auto;
 }
 
