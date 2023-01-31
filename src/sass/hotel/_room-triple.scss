@@ -2,9 +2,14 @@
     position: relative;
     padding-top: 32px; 
     padding-bottom: 32px;
-    // overflow-x: hidden;
 
     background-color: var(--color-background-dark);
+}
+
+@media screen and (max-width: 1023.98px) {
+    .triple {
+        overflow-x: hidden;
+    }
 }
 
 @media screen and (min-width: 1024px) {
