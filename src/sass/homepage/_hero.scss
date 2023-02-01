@@ -73,9 +73,15 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
 }
 @media screen and (min-width:1024px){
     .container-hero-first {
-        padding-top: 88px;
+        width: 1024px;
+        margin: auto;
     }
-}
+    }
+    @media screen and (min-width:1280px){
+        .container-hero-first {
+            width: 1280px;
+            }
+        }
 .hero-restaurant-first {
     border-color: #F3C653;
     margin-left: 189px;
@@ -86,10 +92,18 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
 }
 @media screen and (min-width:1024px){
     .hero-restaurant-first {
-        position: relative;
-        margin-left: 47px;
         width: 285px;
         height: 56px;
+        position: relative;
+        margin: 0;
+        top: 557px;
+        left: 48px;
+    }
+}
+@media screen and (min-width:1280px){
+    .hero-restaurant-first {
+        margin-left: 85px;
+        left: 0;
     }
 }
 .map-pic-hero-restaurant {
@@ -144,14 +158,14 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     width: 303px;
     height: 103px;
     margin: auto;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
 @media screen and (min-width:1024px){
     .hero-restaurant-title {
+   margin-top: 106px;
     width: 404px;
     height: 138px;
     font-size: 128px;
-    margin-bottom: 16px;
     }
 }
 .hero-restaurant-name-service {
@@ -168,7 +182,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
 @media screen and (min-width:1024px){
     .hero-restaurant-name-service {
     font-size: 20px;
-    margin-bottom: 56px;
+    margin-bottom: 64px;
     }
 }
 .hero-restaurant-name-service-sl {
@@ -195,6 +209,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
 @media screen and (min-width:1024px){
     .hero-restaurant-buttons {
         display: flex;
+        justify-content: end;
+        position: relative;
+        right: 47px;
+        column-gap: 40px;
+        bottom: 40px;
     }
 }
 .button-style-hero-restaurant {
@@ -215,11 +234,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
 }
 @media screen and (min-width:1024px){
     .button-style-hero-restaurant {
-    background: #000000;
-    position: absolute;
-    margin-left: 475px;
-    column-gap: 40px;
-    row-gap: 40px ;
+    position: relative;
+    margin-bottom: 0;
     }
 } 
 .social-media-hero-restaurant {
@@ -232,12 +248,19 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
 }
 @media screen and (min-width:1024px){
     .social-media-hero-restaurant {
-        position: absolute;
-        margin-top: auto;
-        margin-left: 47px;
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
         padding-left: 0px;
+        left: 48px;
+        bottom: 17px;
     }
 }
+@media screen and (min-width:1280px){
+    .social-media-hero-restaurant {
+        display: none;
+    }
+} 
 .hero-restaurant-svg{
     fill: rgba(243, 198, 83, 0.7);
 }
