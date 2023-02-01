@@ -31,7 +31,7 @@
 }
 
 /* -------------------------Screen Mobile(small)----------------------------- */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 413px) {
     .container {
         margin-right: auto;
         margin-left: auto;
@@ -153,9 +153,9 @@
 }
 
 /* -------------------------Screen Mobile----------------------------- */
-@media screen and (min-width: 415px) and (max-width: 1023px) {
+@media screen and (min-width: 414px) and (max-width: 1023px) {
     .container {
-        width: 415px;
+        width: 414px;
         margin-right: auto;
         margin-left: auto;
         padding: 0 15px;
@@ -282,7 +282,7 @@
 
 /* -------------------------Screen Tablet----------------------------- */
 
-@media screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .container {
         width: 1024px;
         padding: 0 85px;
@@ -411,9 +411,9 @@
 /* -------------------------SCREEN DESCTOP----------------------------- */
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
     .container {
-        width: 1200px;
+        width: 1280px;
         padding: 0 85px;
         margin-left: auto;
         margin-right: auto;
@@ -456,7 +456,7 @@
     }
     .paragraph-box {
         display: inline-flex;
-        column-gap: 82px;
+        column-gap: 70px;
     }
 
     .paragraph {
