@@ -117,6 +117,7 @@
     width: 24px;
     height: 24px;
     margin-left: 18px;
+    
     fill: #C79002;
 
     outline: 1px solid tomato;
@@ -127,5 +128,5 @@
 }
 
 .arrow-button-container {
-
+    display: flex;
 }
