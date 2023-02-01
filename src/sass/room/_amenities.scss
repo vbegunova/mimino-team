@@ -31,16 +31,13 @@
 }
 
 /* -------------------------Screen Mobile(small)----------------------------- */
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 413px) {
     .container {
         margin-right: auto;
         margin-left: auto;
+        padding: 0px 15px;
     }
 
-    .section-description-container {
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     .section-description {
         background-color: #FFFDEE;
@@ -158,19 +155,14 @@
 }
 
 /* -------------------------Screen Mobile----------------------------- */
-@media screen and (min-width: 413px) and (max-width: 767px) {
+@media screen and (min-width: 414px) and (max-width: 1023px) {
     .container {
-        width: 428px;
+        width: 414px;
         margin-right: auto;
         margin-left: auto;
         padding: 0 15px;
     }
 
-    .section-description-container {
-        width: 428x;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     .section-description {
         background-color: #FFFDEE;
@@ -292,19 +284,14 @@
 
 /* -------------------------Screen Tablet----------------------------- */
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
     .container {
-        width: 768px;
+        width: 1024px;
         padding: 0 85px;
         margin-left: auto;
         margin-right: auto;
     }
-    .section-description-container {
-        width: 768px;
-        padding: 0 85px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+
 
     .section-description {
         background-color: #FFFDEE;
@@ -428,19 +415,14 @@
 
 @media screen and (min-width: 1200px) {
     .container {
-        width: 1280px;
+        width: 1200px;
         padding: 0 85px;
         margin-left: auto;
         margin-right: auto;
     }
 
 
-    .section-description-container {
-        width: 1280px;
-        padding: 0 85px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+
 
     .section-description {
         background-color: #FFFDEE;
