@@ -75,7 +75,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     padding-right: 0;
 }
 }
-
+@media screen and (min-width:1024px){
+    .container-hero-hotel {
+        width: 1024px;
+        margin: auto;
+    }
+    }
 .hero-hotel-second {
     border-color: #F3C653;
     margin-left: 189px;
@@ -90,7 +95,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
         height: 56px;
         position: absolute;
         margin: 0;
-        bottom: 35px;
+        bottom: 155px;
         left: 48px;
     }
 }
@@ -232,7 +237,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
         margin-top: 0;
         margin-left: 0;
         padding-left: 0px;
-        bottom: -17px;
+        top: 690px;
         left: 48px;
     }
 }
