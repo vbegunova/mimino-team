@@ -30,7 +30,7 @@
 
 }
 
-/* -------------------------Screen Mobile----------------------------- */
+/* -------------------------Screen Mobile(small)----------------------------- */
 @media screen and (max-width: 412px) {
     .container {
         margin-right: auto;
@@ -75,8 +75,6 @@
         margin-bottom: 24px;
     }
     .paragraph-box {
-        display: inline-flex;
-        column-gap: 82px;
     }
 
     .paragraph {
@@ -159,7 +157,7 @@
 
 }
 
-/* -------------------------Screen Mobile(2)----------------------------- */
+/* -------------------------Screen Mobile----------------------------- */
 @media screen and (min-width: 413px) and (max-width: 767px) {
     .container {
         width: 428px;
