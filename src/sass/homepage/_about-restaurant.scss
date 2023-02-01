@@ -1,0 +1,153 @@
+.about-restaurant-section {
+    background-color: var(--color-background-main);
+}
+
+.about-restaurant-little-title {
+
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.15;
+
+    color:#B4B4B4;
+}
+
+.about-restaurant-title {
+
+    font-family: 'FilmP3';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.07;
+    letter-spacing: 0.3em;
+    color: #494848;
+
+}
+
+.about-restaurant-text {
+    margin-top: 12px;
+
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #7A7A7A;
+}
+
+
+.about-restaurant-image-text {
+    margin-left: 20px;
+    
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #C79002;
+}
+
+.swiper {
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 1023px) {
+    .about-restaurant-container {
+        padding-top: 18px;
+        padding-bottom: 20px;
+    }
+    .about-restaurant-little-title{
+        font-size: 20px;
+        line-height: 1.15;
+    }
+    .about-restaurant-title {
+        margin-top: 12px;
+
+        font-size: 40px;
+        line-height: 1.07;
+    }
+    .about-restaurant-text {
+        max-width: 258px;
+        font-size: 12px;
+    }
+    .about-restaurant-image-text {
+        font-size: 12px;
+        max-width: 163px;
+    }
+    .about-restaurant-first-picture {
+        margin-top: 28px;
+        margin-left: 140px;
+    }
+    .about-restaurant-second-picture {
+        margin-top: 32px;
+    }
+    .about-restaurant-bottom {
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 1024px) {
+.about-restaurant-container {
+    padding-top: 120px;
+    padding-bottom: 32px;
+}
+.about-restaurant-top {
+    display: flex;
+    align-items: center;
+}
+.about-restaurant-bottom {
+    display: flex;
+    align-items: center;
+}
+ .about-restaurant-title {
+    margin-top: 4px;
+
+ }
+ .about-restaurant-text {
+    margin-top: 24px;
+
+    max-width: 439px;
+    margin-right: 26px;
+ }
+ .about-restaurant-image-text {
+    margin-left: 48px;
+
+    font-size: 16px;
+    max-width: 312px;
+ }
+.about-restaurant-first-picture {
+    margin-bottom: -20px;
+}
+}
+@media screen and (min-width: 1280px) {
+.about-restaurant-container{
+    padding-top: 120px;
+    padding-bottom: 118px;
+}
+.about-restaurant-top {
+    display: flex;
+    align-items: center;
+}
+.about-restaurant-bottom {
+    display: flex;
+    align-items: center;
+}
+.about-restaurant-little-title {
+    max-width: 304px;
+}
+.thumb {
+    margin-right: 37px;
+}
+.about-restaurant-text {
+    max-width: 518px;
+}
+.about-restaurant-image-text {
+    max-width: 312px;
+    margin-left: 32px;
+}
+.about-restaurant-picture {
+    margin-left:37px;
+}
+.about-restaurant-first-picture {
+    margin-bottom: -80px;
+}
+}

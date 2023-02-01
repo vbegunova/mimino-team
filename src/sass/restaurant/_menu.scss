@@ -1,0 +1,236 @@
+.background-menu {
+  background-color: var(--color-background-main);
+}
+@media (min-width: 1024px) {
+  .background-menu {
+    background-color: var(--color-background-dark);
+  }
+}
+.restaurant-menu {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+@media (min-width: 1024px) {
+  .restaurant-menu {
+    padding-top: 58px;
+    padding-bottom: 40px;
+  }
+}
+
+.menu-title {
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: calc(37 / 32);
+  color: var(--color-black);
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 1024px) {
+  .menu-tumb {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1024px) {
+  .top-menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bot-menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+// @media (min-width: 1024px) {
+//   .tabl-section {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//   }
+// }
+
+// @media (min-width: 1024px) {
+
+// }
+
+.menu-table {
+  min-width: 100%;
+  margin-bottom: 16px;
+}
+@media (min-width: 1024px) {
+  .menu-table {
+    min-width: 420px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1280px) {
+  .menu-table {
+    min-width: 485px;
+  }
+}
+// .menu-table + .menu-table {
+//   margin-top: 16px;
+// }
+// .menu-table {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   max-width: 100%;
+// }
+// .menu-table {
+//   outline: 1px solid red;
+//   margin-bottom: 16px;
+//   border-spacing: 0 8px;
+// }
+
+// @media (min-width: 1289px) {
+//   .menu-table {
+//     border-spacing: 0 12px;
+//   }
+// }
+
+.menu-section {
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(32 / 20);
+  color: var(--color-black);
+  margin-bottom: 16px;
+  text-align: start;
+}
+@media (min-width: 1024px) {
+  .menu-section {
+    font-size: 20px;
+    line-height: calc(23 / 20);
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .menu-section {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+  }
+}
+.food-name {
+  // display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  margin-bottom: 4px;
+}
+@media (min-width: 1024px) {
+  .food-name {
+    font-size: 16px;
+    line-height: calc(20 / 16);
+  }
+}
+// .pad-decor {
+//   padding-bottom: 18px;
+// }
+.ingredients {
+  justify-content: flex-start;
+  width: 200px;
+  padding-right: 20px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  font-size: 10px;
+  line-height: calc(12 / 10);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+}
+@media (min-width: 1024px) {
+  .ingredients {
+    padding-right: 15px;
+    padding-bottom: 12px;
+  }
+}
+@media (min-width: 1289px) {
+  .ingredients {
+    padding-right: 35px;
+    padding-bottom: 12px;
+    // margin-bottom: 12px;
+  }
+}
+.menu-quantity {
+  // padding-right: 32px;
+  width: 39px;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+  color: #000000;
+  // padding-right: 32px;
+}
+
+.menu-price {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+}
+@media (min-width: 1289px) {
+  .menu-price {
+    font-size: 16px;
+    line-height: calc(20 / 16);
+  }
+}
+
+.padd-zero {
+  padding-bottom: 0;
+}
+.food-name {
+  font-weight: 500;
+}
+
+.menu-tadle {
+  margin-bottom: 16px;
+}
+
+.menu-price {
+  width: 60px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.menu-butt {
+  margin-top: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  width: 236px;
+  height: 48px;
+  background: var(--color-black);
+  border: 2px solid var(--color-background-main);
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.02em;
+  color: var(--color-accent);
+}
+
+.menu-butt:hover,
+.menu-butt:focus {
+  background: var(--color-white);
+  border: 2px solid var(--color-accent);
+  color: var(--color-accent);
+}
+
+@media (min-width: 1024px) {
+  .menu-butt {
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
