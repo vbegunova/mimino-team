@@ -98,35 +98,32 @@
     color: #000000;
 }
 
-
 .arrow-link {
+    display: flex;
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-
+    fill: #C79002;
     color: #C79002;
+    
 }
 .arrow-link:hover {
     color: #F3C653;
+    fill: #F3C653;
 }
+
 
 .arrow {
     width: 24px;
     height: 24px;
     margin-left: 18px;
     
-    fill: #C79002;
-
     outline: 1px solid tomato;
 }
-.arrow:hover {
-    color: #F3C653;
 
-}
 
-.arrow-button-container {
-    display: flex;
-}
+
