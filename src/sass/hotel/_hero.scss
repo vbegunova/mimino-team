@@ -81,6 +81,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
         margin: auto;
     }
     }
+    @media screen and (min-width:1280px){
+    .container-hero-hotel {
+        width: 1280px;
+        }
+    }
 .hero-hotel-second {
     border-color: #F3C653;
     margin-left: 189px;
@@ -93,15 +98,16 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     .hero-hotel-second {
         width: 285px;
         height: 56px;
-        position: absolute;
+        position: relative;
         margin: 0;
-        bottom: 155px;
+        top: 557px;
         left: 48px;
     }
 }
 @media screen and (min-width:1280px){
     .hero-hotel-second {
         margin-left: 85px;
+        left: 0;
     }
 }
 .map-pic-hero-hotel-second {
@@ -189,9 +195,15 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     .hero-hotel-buttons-second {
         display: flex;
         justify-content: end;
-        position: absolute;
+        position: relative;
         right: 47px;
         column-gap: 40px;
+        bottom: 40px;
+    }
+}
+@media screen and (min-width:1280px){
+    .hero-hotel-buttons-second {
+        bottom: 85px;
     }
 }
 .button-style-hero-hotel-second {
@@ -217,12 +229,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     
     }
 }
- @media screen and (min-width:1280px){
-    .button-style-hero-hotel-second {
-        margin-left: 649px;
-    }
-} 
-
 .social-media-hero-hotel-second {
     display: flex;
     gap: 24px;
@@ -233,12 +239,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
 }
 @media screen and (min-width:1024px){
     .social-media-hero-hotel-second {
-        position: absolute;
+        position: relative;
         margin-top: 0;
         margin-left: 0;
         padding-left: 0px;
-        top: 690px;
         left: 48px;
+        bottom: 17px;
     }
 }
 @media screen and (min-width:1280px){
