@@ -86,7 +86,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
 }
 @media screen and (min-width:1024px){
     .hero-restaurant-first {
-        margin-top: 500px;
+        position: relative;
         margin-left: 47px;
         width: 285px;
         height: 56px;
