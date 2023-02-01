@@ -3,13 +3,14 @@
 }
 
 .restaurant {
-  padding-top: 100px;
+  padding-top: 16px;
   padding-bottom: 28px;
 }
+
 @media (min-width: 1024px) {
   .restaurant {
-    padding-top: 124px;
-    padding-bottom: 96px;
+    padding-top: 120px;
+    padding-bottom: 40px;
   }
 }
 @media (min-width: 1280px) {
@@ -22,6 +23,7 @@
   .box-top {
     display: flex;
     align-items: center;
+    position: relative;
   }
 }
 
@@ -83,34 +85,38 @@
 }
 
 .man-img {
+  display: block;
+  margin-left: 155px;
+  position: relative;
   margin-bottom: 32px;
-  margin-left: auto;
-  margin-right: 0;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 }
 @media (min-width: 1024px) {
   .man-img {
-    margin-bottom: 0;
-    margin-right: 112px;
+    margin-top: 32px;
+    margin-left: 50%;
+    position: absolute;
   }
 }
 @media (min-width: 1280px) {
   .man-img {
-    margin-right: 32px;
+    margin-left: 50%;
   }
 }
 
 .meet-img {
   margin-right: 20px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 }
 @media (min-width: 1024px) {
   .meet-img {
-    margin-top: -20px;
+    margin-top: 142px;
     margin-right: 48px;
   }
 }
 @media (min-width: 1280px) {
   .meet-img {
-    margin-top: -60px;
+    margin-top: 162px;
     margin-right: 32px;
   }
 }
@@ -129,9 +135,15 @@
 }
 @media (min-width: 1024px) {
   .rest-info {
+    margin-top: 180px;
     width: 312px;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(20 / 16);
+  }
+}
+@media (min-width: 1280px) {
+  .rest-info {
+    margin-top: 123px;
   }
 }
