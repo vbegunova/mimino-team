@@ -31,7 +31,7 @@
 }
 
 /* -------------------------Screen Mobile(small)----------------------------- */
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 414px) {
     .container {
         margin-right: auto;
         margin-left: auto;
@@ -100,7 +100,6 @@
     .buttons-container {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
         margin-top: 49px;
         margin-bottom: 36px;
     }
@@ -108,7 +107,7 @@
 
 
     .button {
-        width: 384px;
+        width: 324px;
         height: 64px;
         box-sizing: border-box;
         background: #000000;
@@ -149,15 +148,14 @@
     .arrow {
         width: 24px;
         height: 24px;
-        margin-left: 18px;
     }
 
 }
 
 /* -------------------------Screen Mobile----------------------------- */
-@media screen and (min-width: 414px) and (max-width: 1023px) {
+@media screen and (min-width: 415px) and (max-width: 1023px) {
     .container {
-        width: 414px;
+        width: 415px;
         margin-right: auto;
         margin-left: auto;
         padding: 0 15px;
@@ -197,7 +195,7 @@
     }
     .paragraph-box {
         display: inline-flex;
-        column-gap: 82px;
+        column-gap: 59px;
     }
 
     .paragraph {
@@ -327,7 +325,7 @@
     }
     .paragraph-box {
         display: inline-flex;
-        column-gap: 82px;
+        column-gap: 59px;
     }
 
     .paragraph {
