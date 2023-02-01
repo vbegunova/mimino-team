@@ -1,0 +1,327 @@
+.restaurant-hero {
+    padding-top: 64px;
+    padding-bottom: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/restaurant/hero/hero-img_mob@1x.jpg);
+}
+
+@media screen and (min-width: 1024px) {
+    .restaurant-hero {
+        padding-top: 100px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .restaurant-hero {
+        padding-bottom: 65px;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+screen and (-webkit-min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .restaurant-hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/restaurant/hero/hero-img_mob@2x.jpg);
+    }
+}
+
+/* screen >= 415 */
+
+@media screen and (min-width: 415px) {
+    .restaurant-hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/restaurant/hero/hero-img_tab@1x.jpg);
+    }
+}
+
+@media screen and (min-width: 415px) and (min-device-pixel-ratio: 2),
+screen and (min-width: 415px) and (-webkit-min-device-pixel-ratio: 2),
+screen and (min-width: 415px) and (min-resolution: 192dpi),
+screen and (min-width: 415px) and (min-resolution: 2dppx) {
+    .restaurant-hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/restaurant/hero/hero-img_tab@2x.jpg);
+    }
+}
+
+/* screen >= 1025 */
+
+@media screen and (min-width: 1025px) {
+    .restaurant-hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/restaurant/hero/hero-img_desk@1x.jpg);
+    }
+}
+
+@media screen and (min-width: 1025px) and (min-device-pixel-ratio: 2),
+screen and (min-width: 1025px) and (-webkit-min-device-pixel-ratio: 2),
+screen and (min-width: 1025px) and (min-resolution: 192dpi),
+screen and (min-width: 1025px) and (min-resolution: 2dppx) {
+    .restaurant-hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/restaurant/hero/hero-img_desk@2x.jpg);
+    }
+}
+
+.restaurant-hero__container {
+    position: relative;
+    padding-top: 117px;
+}
+
+@media screen and (min-width: 1024px) {
+    .restaurant-hero__container {
+        padding-top: 88px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .restaurant-hero__container {
+        padding-top: 64px;
+    }
+}
+
+// Text content
+
+.restaurant-hero__title {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: -0.3em;
+    direction: rtl;
+    text-align: center;
+
+    font-family: 'FilmP3';
+    font-weight: 700;
+    font-size: 96px;
+    line-height: calc(103/96);
+    letter-spacing: 0.3em;
+
+    color: var(--color-white);
+}
+
+@media screen and (max-width: 357px) {
+    .restaurant-hero__title {
+        font-size: 86px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .restaurant-hero__title {
+        margin-bottom: 16px;
+
+        font-size: 128px;
+        line-height: calc(138/128);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .restaurant-hero__title {
+        margin-bottom: 32px;
+    }
+}
+
+.restaurant-hero__subtitle {
+    margin-bottom: 44px;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(20/16);
+    letter-spacing: 0.02em;
+    text-align: center;
+
+    color: var(--color-text-secondary);
+}
+
+@media screen and (min-width: 1024px) {
+    .restaurant-hero__subtitle {
+        margin-bottom: 56px;
+
+        font-size: 20px;
+        line-height: calc(24/20);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .restaurant-hero__subtitle {
+        margin-bottom: 64px;
+    }
+}
+
+.restaurant-hero__description {
+    margin-bottom: 113px;
+
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: calc(37/32);
+    letter-spacing: 0.05em;
+    text-align: center;
+
+    color: var(--color-text-secondary);
+}
+
+@media screen and (min-width: 1024px) {
+    .restaurant-hero__description {
+        margin-bottom: 145px;
+
+        font-size: 36px;
+        line-height: calc(41/36);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .restaurant-hero__description {
+        margin-bottom: 144px;
+    }
+}
+
+// Buttons
+
+.restaurant-hero__buttons-list {
+    margin-bottom: 58px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .restaurant-hero__buttons-list {
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: end;
+        gap: 40px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .restaurant-hero__buttons-list {
+        margin-bottom: 0;
+        gap: 60px;
+    }
+}
+
+.restaurant-hero__button {
+    padding: 14px 24px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(20/16);
+    letter-spacing: 0.02em;
+    color: var(--color-accent);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid var(--color-white);
+    border-radius: 25px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279.98px) {
+    .restaurant-hero__button:nth-child(2n) {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .restaurant-hero__button {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media screen and (max-width: 1023.98px) {
+    .restaurant-hero__button+.restaurant-hero__button {
+        margin-top: 24px;
+    }
+}
+
+// Social media
+
+.restaurant-hero__social-list {
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (min-width: 1280px) {
+    .restaurant-hero__social-list {
+        display: none;
+    }
+}
+
+.restaurant-hero__social-icon {
+    fill: var(--color-accent);
+}
+
+.restaurant-hero__social-item:hover .restaurant-hero__social-icon {
+    fill: var(--color-icon-accent);
+}
+
+// Address
+
+.restaurant-hero__address {
+    position: absolute;
+
+    padding: 8px 7px 9px 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    border: 1px solid var(--color-icon-accent);
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 1023.98px) {
+    .restaurant-hero__address {
+        top: 0;
+        right: 15px;
+
+        padding: 8px 16px 8px 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .restaurant-hero__address {
+        bottom: 49px;
+        left: 47px;
+
+        padding: 8px 16px 8px 10px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .restaurant-hero__address {
+        bottom: 0px;
+        left: 85px;
+
+        padding: 8px 16px 8px 10px;
+    }
+}
+
+.restaurant-hero__address-icon {
+    fill: var(--color-accent);
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .restaurant-hero__address-icon {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.restaurant-hero__address-content {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(15/12);
+    letter-spacing: 0.01em;
+
+    color: var(--color-text-silver);
+}
+
+@media screen and (min-width: 1024px) {
+    .restaurant-hero__address-content {
+        font-size: 16px;
+        line-height: calc(20/16);
+    }
+}
