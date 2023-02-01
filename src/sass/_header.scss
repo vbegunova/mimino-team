@@ -28,13 +28,12 @@
 .nav__phone-icon {
     fill: var(--color-icon-accent);
 
-    transition: fill 250ms var(--transition-timing-function);
-
+    transition: fill 250ms var(--transition-timing-function); 
 }
 
-.nav__phone:hover,
-.nav__phone:focus {
-    border-color: var(--color-text-brand);
+ .nav__phone:hover,
+ .nav__phone:focus {
+   border-color: var(--color-text-brand);
 }
 
 .nav__phone:hover .nav__phone-icon,
