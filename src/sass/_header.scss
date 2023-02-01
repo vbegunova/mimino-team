@@ -1,7 +1,6 @@
-
 .header-container {
     position: relative;
-    
+
 }
 
 .header-wrapper {
@@ -17,13 +16,36 @@
 
 .social-icon {
     fill: var(--color-icon-accent);
+
+    transition: fill 250ms var(--transition-timing-function);
+}
+
+.social-icon:hover,
+.social-icon:focus {
+    fill: var(--color-text-brand);
 }
 
 .nav__phone-icon {
     fill: var(--color-icon-accent);
+
+    transition: fill 250ms var(--transition-timing-function);
+
 }
 
+.nav__phone:hover,
+.nav__phone:focus {
+    border-color: var(--color-text-brand);
+}
 
+.nav__phone:hover .nav__phone-icon,
+.nav__phone:focus .nav__phone-icon {
+    fill: var(--color-text-brand);
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    color: var(--color-text-brand);
+}
 
 @media screen and (min-width: 1024px) {
     .header-wrapper {
@@ -49,7 +71,8 @@
     letter-spacing: 0.3em;
     color: var(--color-white);
     background-color: black;
-    text-transform: uppercase;
+
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -116,6 +139,8 @@
     line-height: calc(20 / 16);
     letter-spacing: 0.02em;
     color: var(--color-accent);
+
+    transition: color 250ms var(--transition-timing-function);
 }
 
 @media screen and (min-width: 1024px) {
@@ -131,7 +156,9 @@
     display: flex;
     align-items: center;
     padding: 0;
-    background-color: black
+    transition: border-color 250ms var(--transition-timing-function);
+
+    background-color: black;
 }
 
 @media screen and (min-width: 1024px) {
@@ -157,5 +184,3 @@
         gap: 20px;
     }
 }
-
-
