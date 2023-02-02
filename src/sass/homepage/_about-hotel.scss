@@ -1,3 +1,19 @@
+.about-hotel {
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .about-hotel {
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-hotel {
+        padding-bottom: 50px;
+    }
+}
+
 .about {
     position: relative;
 }
@@ -199,7 +215,7 @@
         margin-right: 40px;
     }
 
-    .slider-abou-hotel-image:first-child {
+    .slider-about-hotel-image:first-child {
         margin-left: 0;
     }
 
