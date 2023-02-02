@@ -1,0 +1,84 @@
+<div class="backdrop is-hidden" data-modal-table id="modal">
+  <div class="modal-table-book">
+    <button class="menu-close-btn" data-modal-table-close>
+      <svg width="24" height="24" aria-label="Switcer of mobile menu">
+        <use class="header-icon-close" href="./images/icons.svg#cross"></use>
+      </svg>
+    </button>
+
+    <form class="table-book-form" name="table-book-form" autocomplete="off">
+      <strong class="table-book-title" id="contacts-form"
+        >ЗАБРОНЮВАТИ СТОЛИК</strong
+      >
+      <div class="table-form-box" role="group" aria-labelledby="contacts-form">
+        <div class="form-label-box">
+          <label class="table-form-field"
+            ><input
+              maxlength="18"
+              class="table-field-area"
+              placeholder="Ваше ім’я"
+              type="text"
+              name="first_name"
+            />
+            <span class="table-form-label">На кого забронювати столик?</span>
+          </label>
+
+          <label class="table-form-field"
+            ><input
+              type="tel"
+              name="phone"
+              id="phoneNumber"
+              placeholder="+38 (___) ___-__-__"
+              autocomplete="tel"
+              maxlength="19"
+              class="table-field-area"
+            />
+            <span class="table-form-label">Номер телефону</span>
+          </label>
+        </div>
+
+        <div class="form-label-box">
+          <label for="quantity" class="table-form-field modal-table-position">
+            <select
+              class="table-field-area area-options"
+              id="quantity"
+              name="quantity"
+            >
+              <option value="1">1</option>
+              <option selected value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+
+            <span class="table-form-label">Столик на яку кількість осіб?</span>
+
+            <svg class="modal-table-icon" width="24" height="24">
+              <use href="./images/icons.svg#arrow-down"></use>
+            </svg>
+          </label>
+
+          <label class="table-form-field modal-table-position"
+            ><input
+              class="table-field-area area-options"
+              type="date"
+              id="datepicker"
+              value="Сьогодні"
+            />
+            <svg class="modal-table-icon" width="24" height="24">
+              <use href="./images/icons.svg#arrow-down"></use>
+            </svg>
+            <span class="table-form-label">На яку дату бронювати?</span>
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="modal-table-send">
+        ОФОРМИТИ БРОНЮВАННЯ
+      </button>
+    </form>
+  </div>
+</div>

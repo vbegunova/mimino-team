@@ -7,42 +7,83 @@
         Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
      </div>
     <div class="about-hotel-first-image">
-        <picture>
-        <source 
-        media="(min-width:1280px)" 
-        srcset="/src/images/homepage/about-hotel/about-hotel-1_460.jpg">
-        <source 
-        media="(min-width:1024px)" 
-        srcset="/src/images/homepage/about-hotel/about-hotel-1_400.jpg">
-        <source 
-        media="(min-width:414px)" 
-        srcset="/src/images/homepage/about-hotel/about-hotel-1_244.jpg">
-        <img class="about-image"
-        src="/src/images/homepage/about-hotel/about-hotel-1_460.jpg"
-        alt="Фотографія номеру"
-
-     />
      </picture>
+     <picture>
+        <source
+          srcset="
+            /src/images/homepage/about-hotel/about-hotel-1_460.jpg 1x,
+            /src/images/homepage/about-hotel/about-hotel-1_920.jpg 2x
+          "
+          media="(min-width: 1280px)"
+          width="460"
+          height="574"
+        />
+        <source
+          srcset="
+            /src/images/homepage/about-hotel/about-hotel-1_400.jpg 1x,
+            /src/images/homepage/about-hotel/about-hotel-1_800.jpg 2x
+          "
+          media="(min-width: 1024px)"
+          width="400"
+          height="524"
+        />
+        <source
+          srcset="
+            /src/images/homepage/about-hotel/about-hotel-1_244.jpg 1x,
+            /src/images/homepage/about-hotel/about-hotel-1_488.jpg 2x
+          "
+          media="(max-width: 414px)"
+          width="244"
+          height="322"
+        />
+        <img
+          src="/src/images/homepage/about-hotel/about-hotel-1_460.jpg"
+          alt="Фотографія номеру"
+          width="460"
+          class="about-image"
+        />
+      </picture>
     </div>
-    <p class="about-hotel-second-text"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+    <div class="about-hotel-second">
+          <p class="about-hotel-second-text"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
         Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
     <div class="about-hotel-second-image">
-        <picture>
-            <source 
-            media="(min-width:1280px)" 
-            srcset="/src/images/homepage/about-hotel/about-hotel-2_460.jpg">
-            <source 
-            media="(min-width:1024px)" 
-            srcset="/src/images/homepage/about-hotel/about-hotel-2_350.jpg">
-            <source 
-            media="(min-width:414px)" 
-            srcset="/src/images/homepage/about-hotel/about-hotel-2_200.jpg">
-            <img class="about-image"
-            src="/src/images/homepage/about-hotel/about-hotel-2_460.jpg"
-            alt="Фотографія холу"
-
-         />
-         </picture>
+      <picture>
+        <source
+          srcset="
+            /src/images/homepage/about-hotel/about-hotel-2_460.jpg 1x,
+            /src/images/homepage/about-hotel/about-hotel-2_920.jpg 2x
+          "
+          media="(min-width: 1280px)"
+          width="460"
+          height="574"
+        />
+        <source
+          srcset="
+            /src/images/homepage/about-hotel/about-hotel-2_350.jpg 1x,
+            /src/images/homepage/about-hotel/about-hotel-2_700.jpg 2x
+          "
+          media="(min-width: 1024px)"
+          width="350"
+          height="500"
+        />
+        <source
+          srcset="
+            /src/images/homepage/about-hotel/about-hotel-2_200.jpg 1x,
+            /src/images/homepage/about-hotel/about-hotel-2_400.jpg 2x
+          "
+          media="(max-width: 414px)"
+          width="200"
+          height="278"
+        />
+        <img
+          src="/src/images/homepage/about-hotel/about-hotel-2_460.jpg"
+          alt="Фотографія холу"
+          width="460"
+          class="about-image"
+        />
+      </picture>
+    </div>
     </div>
     <div class="slider-about-hotel-box">
     <div class="slider-about-hotel">
@@ -55,7 +96,7 @@
             media="(min-width:1024px)" 
             srcset="/src/images/homepage/about-hotel/slider/about-hotel-slider-1_194.jpg">
             <source 
-            media="(min-width:414px)" 
+            media="(max-width:1023.98px)" 
             srcset="/src/images/homepage/about-hotel/slider/about-hotel-slider-1_245.jpg">
         <img class="slider-image"
         src="/src/images/homepage/about-hotel/slider/about-hotel-slider-1_254.jpg"
@@ -73,16 +114,16 @@
             media="(min-width:1024px)" 
             srcset="/src/images/homepage/about-hotel/slider/about-hotel-slider-2_194.jpg">
             <source 
-            media="(min-width:414px)" 
+            media="(max-width:1023.98px)" 
             srcset="/src/images/homepage/about-hotel/slider/about-hotel-slider-2_245.jpg">
         <img class="slider-image"
-        src="/src/images/homepage/about-hotel/slider/about-hotel-slider-1_254.jpg"
+        src="/src/images/homepage/about-hotel/slider/about-hotel-slider-2_254.jpg"
         alt="Фотографія спа"
 
         />
        </picture>
       </div>
-</div>
+    </div>
         <button class="about-hotel-slider-button">
           <svg class="svg-about-hotel">
             <use href="/src/images/icons.svg#arrow-left"></use>
