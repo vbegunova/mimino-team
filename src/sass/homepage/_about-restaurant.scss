@@ -3,6 +3,12 @@
     position: relative;
 }
 
+@media screen and (max-width: 1023.98px) {
+    .about-restaurant-section {
+        overflow: hidden;
+    }
+}
+
 .about-restaurant-little-title {
 
     font-family: 'Times New Roman', sans-serif;
@@ -46,8 +52,15 @@
     color: #C79002;
 }
 
-.swiper {
-    margin-top: 32px;
+.about-restaurant-slider {
+    display: flex;
+}
+.about-restaurant-arrows {
+    display: flex;
+    gap: 32px;
+    // margin-left: 1006px;
+    // margin-top: 143px;
+    // margin-right: 8px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -94,6 +107,20 @@
         display: flex;
         align-items: center;
     }
+
+        .about-restaurant-slider {
+        margin-left: 69px;
+        margin-top: 32px;
+        margin-bottom: 20px;
+        gap: 25px;
+    }
+    .about-restaurant-slider-picture {
+        min-width: 245px;
+        min-height: 245px;
+    }
+    .about-restaurant-arrows {
+        margin-left: 286px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -125,8 +152,10 @@
     }
 
     .about-restaurant-image-text {
-        margin-left: 48px;
+        // margin-left: 48px;
         margin-top: 196px;
+                justify-content: end;
+        margin-left: 398px;
 
         font-size: 16px;
         max-width: 312px;
@@ -144,12 +173,25 @@
     .about-restaurant-second-picture {
         box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     }
+        .about-restaurant-slider {
+        gap: 40px;
+        margin-top: 154px;
+        margin-left: 451px;
+        margin-bottom: 39px;
+    }
+    .about-restaurant-second-picture {
+        position: absolute;
+    }
+    .about-restaurant-arrows {
+        margin-left: 781px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
     .about-restaurant-container {
         padding-top: 120px;
-        padding-bottom: 118px;
+        // padding-bottom: 118px;
+        padding-bottom: 50px;
     }
 
     .about-restaurant-top {
@@ -176,7 +218,8 @@
 
     .about-restaurant-image-text {
         max-width: 312px;
-        margin-left: 32px;
+        // margin-left: 32px;
+        margin-left: 492px;
         margin-top: 186px;
     }
 
@@ -187,5 +230,11 @@
     .about-restaurant-first-picture {
         top: -33px;
         width: 460px;
+    }
+    .about-restaurant-slider {
+        margin: 119px 0 36px 562px;
+    }
+    .about-restaurant-arrows {
+        margin-left: 1006px;
     }
 }

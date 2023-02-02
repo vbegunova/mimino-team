@@ -166,16 +166,14 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     font-weight: 700;
     font-size: 96px;
     line-height: 1.08333;
-    width: 303px;
     height: 103px;
-    margin: auto;
+    text-align: center;
     margin-bottom: 32px;
 }
 
 @media screen and (max-width: 357px) {
     .hero-hotel-title-second {
         font-size: 86px;
-        text-align: center;
     }
 }
 
