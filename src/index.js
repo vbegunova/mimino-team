@@ -45,6 +45,29 @@
   }
 })();
 
+// Script to close and open Price-Modal window
+
+(() => {
+    const refs = {
+      openModalBtn: document.querySelector('[data-modal-price-open]'), 
+      closeModalBtn: document.querySelector('[data-modal-price-close]'),
+      modal: document.querySelector('[data-modal-price]'),
+    };
+  
+    refs.openModalBtn.addEventListener('click', toggleModal);
+    refs.closeModalBtn.addEventListener('click', toggleModal);
+  
+    function toggleModal() {
+     
+      const isModalOpen = refs.openModalBtn.getAttribute('aria-expanded') === 'true' || false;
+      refs.openModalBtn.setAttribute('aria-expanded', !isModalOpen);
+      refs.modal.classList.toggle('is-hidden');
+  
+      const scrollLockMethod = !isModalOpen ? 'disableBodyScroll' : 'enableBodyScroll';
+      bodyScrollLock[scrollLockMethod](document.body)
+    }
+})();
+
 // Script for phone auto editing 
 
   const isNumericInput = event => {
