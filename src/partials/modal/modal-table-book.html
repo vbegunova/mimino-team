@@ -1,144 +1,83 @@
-<div class="modal-table-book">
-  <button class="menu-close-btn">
-    <svg width="24" height="24" aria-label="Switcer of mobile menu">
-      <use class="header-icon-close" href="./images/icons.svg#cross"></use>
-    </svg>
-  </button>
+<div class="backdrop is-hidden" data-modal id="modal">
+  <div class="modal-table-book">
+    <button class="menu-close-btn" data-modal-close>
+      <svg width="24" height="24" aria-label="Switcer of mobile menu">
+        <use class="header-icon-close" href="./images/icons.svg#cross"></use>
+      </svg>
+    </button>
 
-  <form class="table-book-form" name="table-book-form" autocomplete="off">
-    <strong class="table-book-title" id="contacts-form"
-      >ЗАБРОНЮВАТИ СТОЛИК</strong
-    >
-    <div class="table-form-box" role="group" aria-labelledby="contacts-form">
-      <div class="form-label-box">
-        <label class="table-form-field"
-          ><input
-            maxlength="18"
-            class="table-field-area"
-            placeholder="Ваше ім’я"
-            type="text"
-            name="first_name"
-          />
-          <span class="table-form-label">На кого забронювати столик?</span>
-        </label>
+    <form class="table-book-form" name="table-book-form" autocomplete="off">
+      <strong class="table-book-title" id="contacts-form"
+        >ЗАБРОНЮВАТИ СТОЛИК</strong
+      >
+      <div class="table-form-box" role="group" aria-labelledby="contacts-form">
+        <div class="form-label-box">
+          <label class="table-form-field"
+            ><input
+              maxlength="18"
+              class="table-field-area"
+              placeholder="Ваше ім’я"
+              type="text"
+              name="first_name"
+            />
+            <span class="table-form-label">На кого забронювати столик?</span>
+          </label>
 
-        <label class="table-form-field"
-          ><input
-            type="tel"
-            name="phone"
-            id="phoneNumber"
-            placeholder="+38 (___) ___-__-__"
-            autocomplete="tel"
-            maxlength="19"
-            class="table-field-area"
-          />
-          <span class="table-form-label">Номер телефону</span>
-        </label>
+          <label class="table-form-field"
+            ><input
+              type="tel"
+              name="phone"
+              id="phoneNumber"
+              placeholder="+38 (___) ___-__-__"
+              autocomplete="tel"
+              maxlength="19"
+              class="table-field-area"
+            />
+            <span class="table-form-label">Номер телефону</span>
+          </label>
+        </div>
+
+        <div class="form-label-box">
+          <label for="quantity" class="table-form-field modal-table-position">
+            <select
+              class="table-field-area area-options"
+              id="quantity"
+              name="quantity"
+            >
+              <option value="1">1</option>
+              <option selected value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+
+            <span class="table-form-label">Столик на яку кількість осіб?</span>
+
+            <svg class="modal-table-icon" width="24" height="24">
+              <use href="./images/icons.svg#arrow-down"></use></svg
+          ></label>
+
+          <label class="table-form-field modal-table-position"
+            ><input
+              class="table-field-area area-options"
+              type="date"
+              id="datepicker"
+              value="Сьогодні"
+            />
+            <svg class="modal-table-icon" width="24" height="24">
+              <use href="./images/icons.svg#arrow-down"></use>
+            </svg>
+            <span class="table-form-label">На яку дату бронювати?</span>
+          </label>
+        </div>
       </div>
 
-      <div class="form-label-box">
-        <label for="quantity" class="table-form-field modal-table-position">
-          <select
-            class="table-field-area area-options"
-            id="quantity"
-            name="quantity"
-          >
-            <option value="1">1</option>
-            <option selected value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-          </select>
-
-          <span class="table-form-label">Столик на яку кількість осіб?</span>
-
-          <svg class="modal-table-icon" width="24" height="24">
-            <use href="./images/icons.svg#arrow-down"></use></svg
-        ></label>
-
-        <label class="table-form-field modal-table-position"
-          ><input
-            class="table-field-area area-options"
-            type="date"
-            id="datepicker"
-            value="Сьогодні"
-          />
-          <svg class="modal-table-icon" width="24" height="24">
-            <use href="./images/icons.svg#arrow-down"></use>
-          </svg>
-          <span class="table-form-label">На яку дату бронювати?</span>
-        </label>
-      </div>
-    </div>
-
-    <button type="submit" class="modal-table-send">ОФОРМИТИ БРОНЮВАННЯ</button>
-  </form>
+      <button type="submit" class="modal-table-send">
+        ОФОРМИТИ БРОНЮВАННЯ
+      </button>
+    </form>
+  </div>
 </div>
-
-<!-- Script for phone auto editing -->
-
-<script>
-  const isNumericInput = event => {
-    const key = event.keyCode;
-    return (
-      (key >= 48 && key <= 57) || // Allow number line
-      (key >= 96 && key <= 105) // Allow number pad
-    );
-  };
-
-  const isModifierKey = event => {
-    const key = event.keyCode;
-    return (
-      event.shiftKey === true ||
-      key === 35 ||
-      key === 36 || // Allow Shift, Home, End
-      key === 8 ||
-      key === 9 ||
-      key === 13 ||
-      key === 46 || // Allow Backspace, Tab, Enter, Delete
-      (key > 36 && key < 41) || // Allow left, up, right, down
-      // Allow Ctrl/Command + A,C,V,X,Z
-      ((event.ctrlKey === true || event.metaKey === true) &&
-        (key === 65 || key === 67 || key === 86 || key === 88 || key === 90))
-    );
-  };
-
-  const enforceFormat = event => {
-    // Input must be of a valid number format or a modifier key, and not longer than ten digits
-    if (!isNumericInput(event) && !isModifierKey(event)) {
-      event.preventDefault();
-    }
-  };
-
-  const formatToPhone = event => {
-    if (isModifierKey(event)) {
-      return;
-    }
-
-    const input = event.target.value.replace(/\D/g, '').substring(0, 12); // First ten digits of input only
-    const areaCodeN = '+38 ';
-    const areaCode = input.substring(2, 5);
-    const middle = input.substring(5, 8);
-    const middleN = input.substring(8, 10);
-    const last = input.substring(10, 12);
-
-    if (input.length > 10) {
-      event.target.value = `${areaCodeN}(${areaCode}) ${middle}-${middleN}-${last}`;
-    } else if (input.length > 8) {
-      event.target.value = `${areaCodeN}(${areaCode}) ${middle}-${middleN}`;
-    } else if (input.length > 5) {
-      event.target.value = `${areaCodeN}(${areaCode}) ${middle}`;
-    } else if (input.length > 1) {
-      event.target.value = `${areaCodeN}(${areaCode}`;
-    } else if (input.length > 0) {
-      event.target.value = `${areaCodeN}(0${areaCode}`;
-    }
-  };
-
-  const inputElement = document.getElementById('phoneNumber');
-  inputElement.addEventListener('keydown', enforceFormat);
-  inputElement.addEventListener('keyup', formatToPhone);
-</script>
