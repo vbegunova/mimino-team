@@ -220,6 +220,10 @@
         color: #7A7A7A;
     }
 
+    .list-paragraph + .list-paragraph {
+        margin-top: 16px;
+    } 
+
 
     .buttons-container {
         display: flex;
