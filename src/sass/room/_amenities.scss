@@ -59,6 +59,8 @@
         line-height: 37px;
 
         margin-bottom: 16px;
+
+        color: var(--color-black);
     }
     .list-title {
         text-transform: uppercase;
@@ -82,7 +84,7 @@
         line-height: 20px;
         letter-spacing: 0.02em;
 
-        color: #7A7A7A;
+        color: var(--color-text-base);
     }
 
     .list-paragraph {
@@ -93,7 +95,7 @@
         line-height: 20px;
         letter-spacing: 0.02em;
 
-        color: #7A7A7A;
+        color: var(--color-text-base);
     }
 
 
@@ -110,8 +112,8 @@
         width: 384px;
         height: 64px;
         box-sizing: border-box;
-        background: #000000;
-        color: #ffffff;
+        background: var(--color-black);
+        color: var(--color-white);
 
         font-family: 'Montserrat';
         font-style: normal;
@@ -127,7 +129,7 @@
     .button:hover {
         background-color: var(--color-accent);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        color: #000000;
+        color: var(--color-black);
     }
 
     .arrow-link {
@@ -187,6 +189,8 @@
         font-size: 32px;
         line-height: 37px;
         margin-bottom: 16px;
+
+        color: var(--color-black);
     }
     .list-title {
         text-transform: uppercase;
@@ -212,7 +216,7 @@
         line-height: 20px;
         letter-spacing: 0.02em;
 
-        color: #7A7A7A;
+        color: var(--color-text-base);
     }
 
     .list-paragraph {
@@ -223,7 +227,7 @@
         line-height: 20px;
         letter-spacing: 0.02em;
 
-        color: #7A7A7A;
+        color: var(--color-text-base);
     }
 
     .list-paragraph + .list-paragraph {
@@ -245,8 +249,8 @@
         width: 384px;
         height: 64px;
         box-sizing: border-box;
-        background: #000000;
-        color: #ffffff;
+        background: var(--color-black);
+        color: var(--color-white);
 
         font-family: 'Montserrat';
         font-style: normal;
@@ -262,7 +266,7 @@
     .button:hover {
         background-color: var(--color-accent);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        color: #000000;
+        color: var(--color-black);
     }
 
     .arrow-link {
@@ -330,7 +334,7 @@
         /* identical to box height */
         
         
-        color: #000000;
+        color: var(--color-black);
 
         line-height: 37px;
         margin-bottom: 24px;
@@ -361,7 +365,7 @@
     line-height: 20px;
     letter-spacing: 0.02em;
 
-    color: #7A7A7A;
+    color: var(--color-text-base);
     }
 
     .list-paragraph {
@@ -373,7 +377,7 @@
         line-height: 20px;
         letter-spacing: 0.02em;
         
-        color: #7A7A7A;
+        color: var(--color-text-base);
     }
 
 
@@ -391,8 +395,8 @@
         width: 434px;
         height: 64px;
         box-sizing: border-box;
-        background: #000000;
-        color: #ffffff;
+        background: var(--color-black);
+        color: var(--color-white);
 
         font-family: 'Montserrat';
         font-style: normal;
@@ -408,7 +412,7 @@
     .button:hover {
         background-color: var(--color-accent);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        color: #000000;
+        color: var(--color-black)
     }
 
     .arrow-link {
@@ -470,6 +474,8 @@
         font-weight: 400;
         font-size: 32px;
 
+        color: var(--color-black);
+
         line-height: 37px;
         margin-bottom: 24px;
     }
@@ -497,7 +503,7 @@
         line-height: 20px;
         letter-spacing: 0.02em;
 
-        color: #7A7A7A;
+        color: var(--color-text-base);
     }
 
     .list-paragraph {
@@ -508,7 +514,7 @@
         line-height: 20px;
         letter-spacing: 0.02em;
 
-        color: #7A7A7A;
+        color: var(--color-text-base);
     }
 
 
@@ -526,8 +532,8 @@
         width: 434px;
         height: 64px;
         box-sizing: border-box;
-        background: #000000;
-        color: #ffffff;
+        background: var(--color-black);
+        color: var(--color-white);
 
         font-size: 24px;
         font-weight: 500;
@@ -540,7 +546,7 @@
     .button:hover {
         background-color: var(--color-accent);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        color: #000000;
+        color: var(--color-black);
     }
 
     .arrow-link {
