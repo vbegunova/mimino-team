@@ -9,7 +9,8 @@
     --color-text-cloud: rgba(186, 186, 186, 1);
     --color-text-dark: rgba(73, 72, 72, 1); // HEX #494848
     --color-text-brand: rgba(199, 144, 2, 1); // Brown
-    --color-text-silver: rgba(229, 229, 229, 1);
+    --color-text-silver: rgba(229, 229, 229, 1); // HEX #E5E5E5
+    --color-text-secondary: rgba(253, 251, 236, 1); // HEX #FDFBEC
     //BACKGROUND
     --color-background-main: rgba(255, 253, 238, 1); // HEX #FFFDEE
     --color-background-dark: rgba(240, 236, 214, 1); // HEX #F0ECD6
@@ -22,5 +23,5 @@
     --color-footer-background: rgba(14, 12, 7, 1); // HEX #0E0C07
     --color-modal-placeholder: rgba(128, 128, 128, 1);
     // TRANSITION
-    --transition-property: cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
