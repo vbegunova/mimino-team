@@ -41,8 +41,8 @@
 
     .section-description {
         background-color: var(--color-background-main);
-        padding-top: 54px;
-        padding-bottom: 50px;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
 
 
@@ -56,9 +56,9 @@
         font-style: normal;
         font-weight: 400;
         font-size: 32px;
-
         line-height: 37px;
-        margin-bottom: 24px;
+
+        margin-bottom: 16px;
     }
     .list-title {
         text-transform: uppercase;
@@ -68,8 +68,8 @@
         font-size: 24px;
         line-height: 28px;
 
-        margin-top: 42px;
-        margin-bottom: 24px;
+        margin-top: 32px;
+        margin-bottom: 16px;
     }
     .paragraph-box {
     }
@@ -100,8 +100,8 @@
     .buttons-container {
         display: flex;
         flex-direction: column;
-        margin-top: 49px;
-        margin-bottom: 36px;
+        margin-top: 32px;
+        margin-bottom: 72px;
     }
 
 
@@ -113,13 +113,16 @@
         background: #000000;
         color: #ffffff;
 
-        font-size: 24px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 20px;
+        line-height: 24px;
         font-weight: 500;
 
         border: 1px solid #F3C653;
         border-radius: 25px;
 
-        margin-bottom: 35px;
+        margin-bottom: 20px;
     }
     .button:hover {
         background-color: #F3C653;
@@ -129,15 +132,19 @@
 
     .arrow-link {
         display: flex;
-
+        align-items: flex-start;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
         letter-spacing: 0.02em;
+
+
         fill: #C79002;
         color: #C79002;
+
         
     }
     .arrow-link:hover {
@@ -146,8 +153,9 @@
     }
 
     .arrow {
-        width: 24px;
-        height: 24px;
+        width: 22.43px;
+        height: 12.62px;
+        margin-left: 12.75px;
     }
 
 }
@@ -164,8 +172,8 @@
 
     .section-description {
         background-color: var(--color-background-main);
-        padding-top: 54px;
-        padding-bottom: 50px;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
 
     .list {
@@ -178,9 +186,8 @@
         font-style: normal;
         font-weight: 400;
         font-size: 32px;
-
         line-height: 37px;
-        margin-bottom: 24px;
+        margin-bottom: 16px;
     }
     .list-title {
         text-transform: uppercase;
@@ -190,8 +197,8 @@
         font-size: 24px;
         line-height: 28px;
 
-        margin-top: 42px;
-        margin-bottom: 24px;
+        margin-top: 32px;
+        margin-bottom: 16px;
     }
     .paragraph-box {
         // display: inline-flex;
@@ -229,8 +236,8 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-top: 49px;
-        margin-bottom: 36px;
+        margin-top: 32px;
+        margin-bottom: 72px;
     }
 
 
@@ -242,13 +249,16 @@
         background: #000000;
         color: #ffffff;
 
-        font-size: 24px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 20px;
+        line-height: 24px;
         font-weight: 500;
 
         border: 1px solid #F3C653;
         border-radius: 25px;
 
-        margin-bottom: 35px;
+        margin-bottom: 20px;
     }
     .button:hover {
         background-color: #F3C653;
@@ -257,16 +267,20 @@
     }
 
     .arrow-link {
-        display: flex;
+        align-items: flex-start;
 
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
         letter-spacing: 0.02em;
+
+
         fill: #C79002;
         color: #C79002;
+        
         
     }
     .arrow-link:hover {
@@ -275,9 +289,9 @@
     }
 
     .arrow {
-        width: 24px;
-        height: 24px;
-        margin-left: 18px;
+        width: 22.43px;
+        height: 12.62px;
+        margin-left: 12.75px;
     }
 
 }
