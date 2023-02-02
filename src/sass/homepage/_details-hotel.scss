@@ -21,11 +21,6 @@
     letter-spacing: 0.02em;
     color: #BABABA;
 }
-.details-hotel-list-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .details-hotel-list {
     display: flex;
     gap: 20px;
@@ -41,6 +36,8 @@
 }
 .details-button {
     padding: 14px 24px;
+    min-width: 236px;
+    max-height: 48px;
 
     font-weight: 700;
     font-size: 16px;
@@ -58,11 +55,19 @@
     background-color: var(--color-white);
     border: 2px solid var(--color-accent);
 }
-.details-hotel-buttons:not(:last-child) {
-    margin-bottom: 16px;
+
+
+.details-thumb-arrows {
+    display: flex;
+    justify-content: right;
+    gap: 32px;
 }
-.buttons-list {
-    margin-top: 16px;
+.details-hotel-arrows-item {
+    fill: var(--color-white);
+    margin-top: 24px;
+}
+.details-hotel-bottom {
+    display: flex;
 }
 // mobile
 @media screen and (max-width: 1023px) {
@@ -83,12 +88,37 @@
 
     font-size: 12px;
 }
+.details-hotel-list {
+    transform: translateX(-503px);
+}
+.details-hotel-list-item {
+    min-width: 274px;
+    max-height: 270px;
+}
 .details-hotel-little-title {
     margin: 12px 125px 20px 186px;
 
     font-size: 20px;
 }
+.details-buttons-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 236px;
+    gap: 20px;
 }
+.details-button {
+    margin-left: 89px;
+    margin-right: 89px;
+}
+.details-thumb-arrows {
+    margin-right: 25px;
+    margin-bottom: 32px;
+}
+.details-hotel-bottom {
+    flex-direction: column;
+}
+}
+
 
 // TABLET
 
@@ -123,12 +153,18 @@
 .details-hotel-thumb {
     display: flex;
 }
-.buttons-list {
+.details-buttons-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 154px;
     margin-left: 32px;
-}
-.buttons-list {
     margin-top: 154px;
 }
+.details-hotel-thumb {
+    flex-direction: column;
+}
+
 }
 // desktop
 @media screen and (min-width: 1280px) {
@@ -144,11 +180,18 @@
 }
 .details-hotel-list {
     flex-direction: row-reverse;
-    gap: 70px;
+    gap: 86px;
+    transform: translateX(-33px);
 }
-.buttons-list {
-    margin-top: 98px;
-    margin-left: 33px;
+.details-buttons-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 157px;
+    margin-left: 0;
+}
+.details-thumb-arrows {
+    margin-right: 32px;
 }
 }
 @media screen and (max-width: 1023px) {
