@@ -1,11 +1,11 @@
 
-// Script to close and open Modal window
+// Script to close and open Table-Modal window
 
 (() => {
     const refs = {
-      openModalBtn: document.querySelector('[data-modal-open]'), 
-      closeModalBtn: document.querySelector('[data-modal-close]'),
-      modal: document.querySelector('[data-modal]'),
+      openModalBtn: document.querySelector('[data-modal-table-open]'), 
+      closeModalBtn: document.querySelector('[data-modal-table-close]'),
+      modal: document.querySelector('[data-modal-table]'),
     };
   
     refs.openModalBtn.addEventListener('click', toggleModal);
@@ -20,7 +20,30 @@
       const scrollLockMethod = !isModalOpen ? 'disableBodyScroll' : 'enableBodyScroll';
       bodyScrollLock[scrollLockMethod](document.body)
     }
-  })();
+})();
+
+// Script to close and open Room-Modal window
+
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector('[data-modal-room-open]'), 
+    closeModalBtn: document.querySelector('[data-modal-room-close]'),
+    modal: document.querySelector('[data-modal-room]'),
+  };
+
+  refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBtn.addEventListener('click', toggleModal);
+
+  function toggleModal() {
+   
+    const isModalOpen = refs.openModalBtn.getAttribute('aria-expanded') === 'true' || false;
+    refs.openModalBtn.setAttribute('aria-expanded', !isModalOpen);
+    refs.modal.classList.toggle('is-hidden');
+
+    const scrollLockMethod = !isModalOpen ? 'disableBodyScroll' : 'enableBodyScroll';
+    bodyScrollLock[scrollLockMethod](document.body)
+  }
+})();
 
 // Script for phone auto editing 
 
