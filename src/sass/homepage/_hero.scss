@@ -160,10 +160,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
 }
 @media screen and (min-width:1024px){
     .hero-restaurant-title {
-   margin-top: 106px;
-    width: 404px;
-    height: 138px;
-    font-size: 128px;
+        margin-top: 106px;
+        width: 404px;
+        height: 138px;
+        font-size: 128px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .hero-restaurant-name-service {
