@@ -1,21 +1,29 @@
 .background-kitchen {
+  position: relative;
   background-color: var(--color-background-main);
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+  .background-kitchen {
+    padding-top: 120px;
+    padding-bottom: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .background-kitchen {
+    padding-top: 120px;
+  }
 }
 
 .restaurant {
-  padding-top: 100px;
-  padding-bottom: 28px;
+  // padding-bottom: 28px;
 }
 @media (min-width: 1024px) {
   .restaurant {
-    padding-top: 124px;
     padding-bottom: 96px;
-  }
-}
-@media (min-width: 1280px) {
-  .restaurant {
-    padding-top: 120px;
-    padding-bottom: 39px;
   }
 }
 @media (min-width: 1024px) {
@@ -74,11 +82,13 @@
     font-size: 16px;
     line-height: calc(20 / 16);
     margin-right: 26px;
+    margin-bottom: 142px;
   }
 }
 @media (min-width: 1280px) {
   .rest-text {
     width: 518px;
+    margin-bottom: 162px;
   }
 }
 
@@ -86,40 +96,45 @@
   margin-bottom: 32px;
   margin-left: auto;
   margin-right: 0;
+  width: 244px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 }
 @media (min-width: 1024px) {
   .man-img {
-    margin-bottom: 0;
-    margin-right: 112px;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    width: 400px;
   }
 }
 @media (min-width: 1280px) {
   .man-img {
-    margin-right: 32px;
+    width: 460px;
   }
 }
 
 .meet-img {
   margin-right: 20px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 }
 @media (min-width: 1024px) {
   .meet-img {
-    margin-top: -20px;
+    // margin-top: -20px;
     margin-right: 48px;
   }
 }
 @media (min-width: 1280px) {
   .meet-img {
-    margin-top: -60px;
+    // margin-top: -60px;
     margin-right: 32px;
   }
 }
 .box-buttom {
   display: flex;
-  align-items: center;
 }
 
 .rest-info {
+  margin-top: 70px;
   width: 163px;
   font-weight: 600;
   font-size: 12px;
@@ -129,9 +144,15 @@
 }
 @media (min-width: 1024px) {
   .rest-info {
+      margin-top: 196px;
     width: 312px;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(20 / 16);
+  }
+}
+@media (min-width: 1280px) {
+  .rest-info {
+    margin-top: 188px;
   }
 }

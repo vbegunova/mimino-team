@@ -1,0 +1,221 @@
+/* Видаляе всі стилі з інпуту */
+
+.table-field-area {
+    all: unset;
+  }
+  
+  /* Видаляє стилі з кнопок */
+  
+  .modal-table-send,
+  .menu-close-btn {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Приховуе іконку дати */
+  
+  [type="date"]::-webkit-inner-spin-button,
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  
+  /* Основний розмір контейнера */
+  
+  .modal-table-book {
+    position: relative;
+  
+    padding: 60px;
+  
+    width: 414px;
+  
+    background-color: #fffdee;
+  }
+  
+  /* Tablet version */
+  
+  @media only screen and (min-width: 1024px) {
+    .modal-table-book {
+      width: 592px;
+    }
+  }
+  
+  /* Абсолютно спозиціонована кнопка закриття */
+  
+  .menu-close-btn {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+  
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Контейнер форми */
+  
+  .table-book-form {
+    display: flex;
+    flex-direction: column;
+  
+    min-width: 384px;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .table-book-form {
+      width: 592px;
+      margin: 0;
+    }
+  }
+  
+  /* Назва контейнеру */
+  
+  .table-book-title {
+    margin-bottom: 40px;
+  
+    font-family: "Times New Roman";
+  
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    text-align: center;
+  
+    color: var(--color-black);
+  }
+  
+  .table-form-box {
+    padding-bottom: 40px;
+  }
+  
+  /* Змінні лейблу */
+  
+  .form-label-box {
+  }
+  
+  @media only screen and (max-width: 1023px) {
+    .form-label-box:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Tablet version  */
+  
+  @media only screen and (min-width: 1024px) {
+    .form-label-box {
+      display: flex;
+      width: 100%;
+      gap: 16px;
+    }
+    .form-label-box:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+  
+  .table-form-field {
+    display: flex;
+    flex-direction: column;
+  
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .table-form-field.select {
+      width: 288px;
+      margin-left: auto;
+      margin-bottom: 20px;
+    }
+  }
+  @media only screen and (max-width: 1023px) {
+    .table-form-field:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Змінні інпуту */
+  
+  .table-field-area {
+    margin-bottom: 8px;
+    padding: 16px 12px;
+  
+    font-family: "Times New Roman";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+  
+    border: 1px solid var(--color-text-brand);
+    border-radius: 2px;
+    color: var(--color-modal-placeholder);
+  }
+  
+  /* Видаляе стрілочку вниз з select  */
+  
+  .area-options {
+    color: var(--color-modal-placeholder);
+    cursor: pointer;
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+  }
+  
+  /*  Назва лейблу */
+  
+  .table-form-label {
+    margin-left: 12px;
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: 0.02em;
+  
+    color: var(--color-text-brand);
+  }
+  
+  /* Кнопка відправки форми */
+  
+  .modal-table-send {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  
+    border: 1px solid var(--color-icon-accent);
+    border-radius: 2px;
+    color: var(--color-white);
+    background-color: var(--color-black);
+  
+    cursor: pointer;
+  }
+  
+  .modal-table-send:hover,
+  .modal-table-send:active {
+    background-color: var(--color-icon-accent);
+    color: var(--color-black);
+  }
+  
+  /* Date picker */
+  
+  .modal-table-position {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Іконки стрілка вниз */
+  
+  .modal-table-icon {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  
+    width: 24px;
+    height: 24px;
+    pointer-events: none;
+  
+    fill: var(--color-text-brand);
+  }
+  

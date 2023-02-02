@@ -82,7 +82,7 @@
 .homepage-contacts__content {
   display: grid;
   align-items: center;
-  justify-items: left;
+  justify-items: stretch;
   grid-template-columns: 100px 1fr;
   row-gap: 16px;
   column-gap: 26px;
@@ -126,6 +126,10 @@
   }
 }
 
+.homepage-contacts__numberbox--just-left {
+  justify-self: left;
+}
+
 .homepage-contacts__phoneicon {
   margin-right: 8px;
 }
@@ -148,6 +152,7 @@
   gap: 10px;
   align-items: center;
   padding: 8px;
+  padding-right: 16px;
   border: 0.5px solid var(--color-icon-accent);
   border-radius: 2px;
   grid-column: 2;
