@@ -1,92 +1,92 @@
 <div class="backdrop is-hidden" data-modal-room id="modal">
-<div class="modal-room-book">
-  <button class="menu-close-btn" data-modal-room-close>
-    <svg width="24" height="24" aria-label="Switcer of mobile menu">
-      <use class="header-icon-close" href="./images/icons.svg#cross"></use>
-    </svg>
-  </button>
+  <div class="modal-room-book">
+    <button class="menu-close-btn" data-modal-room-close>
+      <svg width="24" height="24" aria-label="Switcer of mobile menu">
+        <use class="header-icon-close" href="./images/icons.svg#cross"></use>
+      </svg>
+    </button>
 
-  <form class="room-book-form" name="room-book-form" autocomplete="off">
-    <strong class="room-book-title uppercase" id="contacts-form"
-      >Забронювати номер</strong
-    >
-    <div class="room-form-box" role="group" aria-labelledby="contacts-form">
-      <div class="room-form-label-box">
-        <label class="room-form-field"
-          ><input
-            maxlength="18"
-            class="room-field-area"
-            placeholder="Ваше ім’я"
-            type="text"
-            name="first_name"
-          />
-          <span class="room-form-label">На кого забронювати номер?</span>
-        </label>
-
-        <label class="room-form-field"
-          ><input
-            type="tel"
-            name="phone"
-            id="phoneNumber"
-            placeholder="+38 (___) ___-__-__"
-            autocomplete="tel"
-            maxlength="19"
-            class="room-field-area"
-          />
-          <span class="room-form-label">Номер телефону</span>
-        </label>
-      </div>
-
-      <label
-        for="hotel_room"
-        class="room-form-field modal-room-position select"
+    <form class="room-book-form" name="room-book-form" autocomplete="off">
+      <strong class="room-book-title uppercase" id="contacts-form"
+        >Забронювати номер</strong
       >
-        <select
-          class="room-field-area area-options"
-          id="hotel_room"
-          name="hotel_room"
+      <div class="room-form-box" role="group" aria-labelledby="contacts-form">
+        <div class="room-form-label-box">
+          <label class="room-form-field"
+            ><input
+              maxlength="18"
+              class="room-field-area"
+              placeholder="Ваше ім’я"
+              type="text"
+              name="first_name"
+            />
+            <span class="room-form-label">На кого забронювати номер?</span>
+          </label>
+
+          <label class="room-form-field"
+            ><input
+              type="tel"
+              name="phone"
+              id="phoneNumber"
+              placeholder="+38 (___) ___-__-__"
+              autocomplete="tel"
+              maxlength="19"
+              class="room-field-area"
+            />
+            <span class="room-form-label">Номер телефону</span>
+          </label>
+        </div>
+
+        <label
+          for="hotel_room"
+          class="room-form-field modal-room-position select"
         >
-          <option selected value="Двомісний люкс">Двомісний люкс</option>
-          <option value="Трьохмісний номер">Трьохмісний номер</option>
-          <option value="Двомісний номер">Двомісний номер</option>
-        </select>
-
-        <span class="room-form-label">Категорія номеру</span>
-
-        <svg class="modal-room-icon" width="24" height="24">
-          <use href="./images/icons.svg#arrow-down"></use></svg
-      ></label>
-
-      <div class="room-form-label-box">
-        <label class="room-form-field modal-room-position"
-          ><input
+          <select
             class="room-field-area area-options"
-            type="date"
-            id="datepicker"
-            value="Сьогодні"
-          />
+            id="hotel_room"
+            name="hotel_room"
+          >
+            <option selected value="Двомісний люкс">Двомісний люкс</option>
+            <option value="Трьохмісний номер">Трьохмісний номер</option>
+            <option value="Двомісний номер">Двомісний номер</option>
+          </select>
+
+          <span class="room-form-label">Категорія номеру</span>
+
           <svg class="modal-room-icon" width="24" height="24">
             <use href="./images/icons.svg#arrow-down"></use>
           </svg>
-          <span class="room-form-label">Дата заїзду</span>
         </label>
 
-        <label class="room-form-field modal-room-position"
-          ><input
-            class="room-field-area area-options"
-            type="date"
-            id="datepicker"
-            value="Сьогодні"
-          />
-          <svg class="modal-room-icon" width="24" height="24">
-            <use href="./images/icons.svg#arrow-down"></use>
-          </svg>
-          <span class="room-form-label">Дата виїзду</span>
-        </label>
+        <div class="room-form-label-box">
+          <label class="room-form-field modal-room-position"
+            ><input
+              class="room-field-area area-options"
+              type="date"
+              id="datepicker"
+              value="Сьогодні"
+            />
+            <svg class="modal-room-icon" width="24" height="24">
+              <use href="./images/icons.svg#arrow-down"></use>
+            </svg>
+            <span class="room-form-label">Дата заїзду</span>
+          </label>
+
+          <label class="room-form-field modal-room-position"
+            ><input
+              class="room-field-area area-options"
+              type="date"
+              id="datepicker"
+              value="Сьогодні"
+            />
+            <svg class="modal-room-icon" width="24" height="24">
+              <use href="./images/icons.svg#arrow-down"></use>
+            </svg>
+            <span class="room-form-label">Дата виїзду</span>
+          </label>
+        </div>
       </div>
-    </div>
-    <button type="submit" class="modal-room-send">ОФОРМИТИ БРОНЮВАННЯ</button>
-  </form>
+      <button type="submit" class="modal-room-send">ОФОРМИТИ БРОНЮВАННЯ</button>
+    </form>
+  </div>
 </div>
-</div>
-     
