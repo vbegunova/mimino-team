@@ -1,7 +1,7 @@
-<div class="backdrop is-hidden" data-modal-room id="modal">
-  <div class="modal-room-book">
+<!-- <div class="backdrop is-hidden" data-modal-room id="modal"> -->
+  <div class="modal-room-book modal" data-modal="room">
     <button class="menu-close-btn" data-modal-room-close>
-      <svg width="24" height="24" aria-label="Switcer of mobile menu">
+      <svg class="js-modal-close" width="24" height="24" aria-label="Switcer of mobile menu">
         <use class="header-icon-close" href="./images/icons.svg#cross"></use>
       </svg>
     </button>
@@ -89,4 +89,5 @@
       <button type="submit" class="modal-room-send">ОФОРМИТИ БРОНЮВАННЯ</button>
     </form>
   </div>
-</div>
+  <div class="overlay js-overlay-modal"></div>
+<!-- </div> -->

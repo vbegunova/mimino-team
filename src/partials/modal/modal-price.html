@@ -1,5 +1,5 @@
-<div class="backdrop is-hidden" data-modal-price id="modal">
-    <div class="modal-price">
+<!-- <div class="backdrop is-hidden" data-modal-price id="modal"> -->
+    <div class="modal-price modal" data-modal="price">
         <form class="modal-form">
             <b class="modal-title">Ціни на номер</b>
             <div class="form-field">
@@ -25,8 +25,9 @@
             </div>
         </form>
         <button class="btn-close" type="button">
-            <svg class="modal-icon" width="24" height="24">
+            <svg class="modal-icon js-modal-close" width="24" height="24">
                 <use href="./images/icons.svg#cross"></use>
             </svg>
         </button>
     </div>
+    <div class="overlay js-overlay-modal"></div>
