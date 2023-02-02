@@ -157,6 +157,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
 }
 
 .hero-hotel-title-second {
+    text-indent: -0.3em;
+    direction: rtl;
     letter-spacing: .3em;
     color: var(--color-white);
     text-transform: uppercase;
@@ -168,6 +170,13 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     height: 103px;
     margin: auto;
     margin-bottom: 32px;
+}
+
+@media screen and (max-width: 357px) {
+    .hero-hotel-title-second {
+        font-size: 86px;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width:1024px) {
