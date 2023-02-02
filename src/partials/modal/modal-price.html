@@ -1,12 +1,12 @@
-<div class="backdrop is-hidden">
+<div class="backdrop is-hidden" data-modal-price id="modal">
     <div class="modal-price">
         <form class="modal-form">
             <b class="modal-title">Ціни на номер</b>
             <div class="form-field">
             <select class="form-input form-select" id="category" name="category">
-                <option class="form-input value="двомісний">Двомісний</option>
-                <option class="form-input value="двомісний люкс" selected>Двомісний люкс</option>
-                <option class="form-input value="трьохмісний">Трьохмісний</option>
+                <option class="form-input" value="двомісний">Двомісний</option>
+                <option class="form-input" value="двомісний люкс" selected>Двомісний люкс</option>
+                <option class="form-input" value="трьохмісний">Трьохмісний</option>
             </select>
             <label class="form-name" for="category">Категорія номеру</label>
             </div>
@@ -26,7 +26,7 @@
         </form>
         <button class="btn-close" type="button">
             <svg class="modal-icon" width="24" height="24">
-                <use href="./images/icons.svg#x"></use>
+                <use href="./images/icons.svg#cross"></use>
             </svg>
         </button>
     </div>
