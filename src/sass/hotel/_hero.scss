@@ -64,11 +64,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
     }
 }
 
-@media screen and (min-width:414px) {
-    .container-hero-hotel {
-        padding-left: 0;
-        padding-right: 0;
-    }
+/*@media screen and (min-width:414px){
+.container-hero-hotel {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 }
 
 @media screen and (min-width:1024px) {
@@ -81,16 +82,15 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
 @media screen and (min-width:1280px) {
     .container-hero-hotel {
         width: 1280px;
-    }
-}
-
+        }
+    }*/
 .hero-hotel-second {
     border-color: #F3C653;
-    margin-left: 189px;
     width: 210px;
     height: 47px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     margin-bottom: 70px;
+    margin-left: auto;
 }
 
 @media screen and (min-width:1024px) {
@@ -100,14 +100,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
         position: relative;
         margin: 0;
         top: 541px;
-        left: 48px;
     }
 }
 
 @media screen and (min-width:1280px) {
     .hero-hotel-second {
-        margin-left: 85px;
-        left: 0;
         top: 548px;
     }
 }
@@ -215,15 +212,14 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
         display: flex;
         justify-content: end;
         position: relative;
-        right: 47px;
         column-gap: 40px;
     }
 }
 
 @media screen and (min-width:1280px) {
     .hero-hotel-buttons-second {
-        bottom: 20px;
-        right: 85px;
+        bottom: 24px;
+
     }
 }
 
@@ -267,7 +263,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1024px) {
         margin-top: 0;
         margin-left: 0;
         padding-left: 0px;
-        left: 48px;
         bottom: -35px;
     }
 }
