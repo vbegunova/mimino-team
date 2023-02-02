@@ -1,12 +1,34 @@
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.backdrop {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.65);
+  opacity: 1;
+}
+
+.backdrop.is-hidden .modal-table-book {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
 /* Видаляе всі стилі з інпуту */
 
-.table-field-area {
+.room-field-area {
     all: unset;
   }
   
   /* Видаляє стилі з кнопок */
   
-  .modal-table-send,
+  .modal-room-send,
   .menu-close-btn {
     background-color: transparent;
     border: none;
@@ -23,10 +45,13 @@
   
   /* Основний розмір контейнера */
   
-  .modal-table-book {
+  .modal-room-book {
     position: relative;
-  
-    padding: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+
+    padding: 60px 15px;
   
     width: 414px;
   
@@ -36,8 +61,10 @@
   /* Tablet version */
   
   @media only screen and (min-width: 1024px) {
-    .modal-table-book {
-      width: 592px;
+    .modal-room-book {
+      width: 712px;
+      padding-left: 60px;
+      padding-right: 60px;
     }
   }
   
@@ -54,7 +81,7 @@
   
   /* Контейнер форми */
   
-  .table-book-form {
+  .room-book-form {
     display: flex;
     flex-direction: column;
   
@@ -62,7 +89,7 @@
   }
   
   @media only screen and (min-width: 1024px) {
-    .table-book-form {
+    .room-book-form {
       width: 592px;
       margin: 0;
     }
@@ -70,7 +97,7 @@
   
   /* Назва контейнеру */
   
-  .table-book-title {
+  .room-book-title {
     margin-bottom: 40px;
   
     font-family: "Times New Roman";
@@ -84,17 +111,16 @@
     color: var(--color-black);
   }
   
-  .table-form-box {
+  .room-form-box {
     padding-bottom: 40px;
   }
   
   /* Змінні лейблу */
   
-  .form-label-box {
-  }
+  
   
   @media only screen and (max-width: 1023px) {
-    .form-label-box:not(:last-child) {
+    .room-form-label-box:not(:last-child) {
       margin-bottom: 20px;
     }
   }
@@ -102,17 +128,17 @@
   /* Tablet version  */
   
   @media only screen and (min-width: 1024px) {
-    .form-label-box {
+    .room-form-label-box {
       display: flex;
       width: 100%;
       gap: 16px;
     }
-    .form-label-box:not(:last-child) {
+    .room-form-label-box:not(:last-child) {
       margin-bottom: 20px;
     }
   }
   
-  .table-form-field {
+  .room-form-field {
     display: flex;
     flex-direction: column;
   
@@ -120,21 +146,21 @@
   }
   
   @media only screen and (min-width: 1024px) {
-    .table-form-field.select {
+    .room-form-field.select {
       width: 288px;
       margin-left: auto;
       margin-bottom: 20px;
     }
   }
   @media only screen and (max-width: 1023px) {
-    .table-form-field:not(:last-child) {
+    .room-form-field:not(:last-child) {
       margin-bottom: 20px;
     }
   }
   
   /* Змінні інпуту */
   
-  .table-field-area {
+  .room-field-area {
     margin-bottom: 8px;
     padding: 16px 12px;
   
@@ -163,7 +189,7 @@
   
   /*  Назва лейблу */
   
-  .table-form-label {
+  .room-form-label {
     margin-left: 12px;
   
     font-weight: 500;
@@ -176,7 +202,7 @@
   
   /* Кнопка відправки форми */
   
-  .modal-table-send {
+  .modal-room-send {
     padding-top: 18px;
     padding-bottom: 18px;
   
@@ -192,22 +218,22 @@
     cursor: pointer;
   }
   
-  .modal-table-send:hover,
-  .modal-table-send:active {
+  .modal-room-send:hover,
+  .modal-room-send:active {
     background-color: var(--color-icon-accent);
     color: var(--color-black);
   }
   
   /* Date picker */
   
-  .modal-table-position {
+  .modal-room-position {
     position: relative;
     cursor: pointer;
   }
   
   /* Іконки стрілка вниз */
   
-  .modal-table-icon {
+  .modal-room-icon {
     position: absolute;
     right: 15px;
     top: 15px;
