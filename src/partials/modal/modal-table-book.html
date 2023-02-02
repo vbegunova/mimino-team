@@ -1,13 +1,3 @@
-<!-- Завантажуемий пресет для поля дата -->
-<link
-  rel="stylesheet"
-  href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
-/>
-<link rel="stylesheet" href="/resources/demos/style.css" />
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-<!-- Завантажуемий пресет для поля дата -->
-
 <div class="modal-table-book">
   <button class="menu-close-btn">
     <svg width="24" height="24" aria-label="Switcer of mobile menu">
@@ -72,7 +62,7 @@
         <label class="table-form-field modal-table-position"
           ><input
             class="table-field-area area-options"
-            type="text"
+            type="date"
             id="datepicker"
             value="Сьогодні"
           />
@@ -88,13 +78,8 @@
   </form>
 </div>
 
-<!-- JS Script for data pick -->
+<!-- Script for phone auto editing -->
 
-<script>
-  $(function () {
-    $('#datepicker').datepicker();
-  });
-</script>
 <script>
   const isNumericInput = event => {
     const key = event.keyCode;
@@ -103,8 +88,6 @@
       (key >= 96 && key <= 105) // Allow number pad
     );
   };
-
-  <!-- Script for phone auto editing -->
 
   const isModifierKey = event => {
     const key = event.keyCode;
