@@ -1,11 +1,3 @@
-//  Common styles
-
-.restaurant-descr-img {
-  height: 100%;
-
-  
-}
-
 .homepage.btn {
   background-color: transparent;
   border: none;
@@ -263,6 +255,7 @@
 .homepage.arrow-left,
 .homepage.arrow-right {
   fill: var(--color-white);
+  transition: fill 250ms var(--transition-timing-function);
 }
 
 .homepage.arrow-left:hover,
@@ -312,6 +305,8 @@
   background-color: var(--color-black);
   border: 2px solid var(--color-white);
   border-radius: 25px;
+
+  transition: border 250ms var(--transition-timing-function), background-color 250ms var(--transition-timing-function);
 }
 
 .homepage.link-restaurant {
@@ -327,7 +322,7 @@
 .homepage.link-restaurant:hover,
 .homepage.order-btn:focus,
 .homepage.link-restaurant:focus {
-  border-color: var(--color-accent);
+  border: 2px solid var(--color-accent);
   background-color: var(--color-white);
 }
 

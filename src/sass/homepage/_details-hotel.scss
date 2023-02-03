@@ -49,6 +49,8 @@
 
     border: 2px solid var(--color-white);
     border-radius: 25px;
+
+    transition: color 250ms var(--transition-timing-function), background-color 250ms var(--transition-timing-function), border 250ms var(--transition-timing-function);
 }
 .details-button:hover, .details-button:focus {
     color:var(--color-accent);
@@ -61,11 +63,18 @@
     display: flex;
     justify-content: right;
     gap: 32px;
+    cursor: pointer;
 }
 .details-hotel-arrows-item {
     fill: var(--color-white);
     margin-top: 24px;
+    transition: fill 250ms var(--transition-timing-function);
 }
+.details-hotel-arrows-item:hover,
+.details-hotel-arrows-item:focus {
+    fill: var(--color-accent);
+}
+
 .details-hotel-bottom {
     display: flex;
 }

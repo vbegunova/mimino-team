@@ -23,19 +23,16 @@
 }
 
 .about-hotel {
-    background-color: #FFFDEE;
+    background-color: var(--color-background-main);
 }
 
-
-
 .header-about-hotel {
-    color: #B4B4B4;
+    color: var(--text-color-light);
     padding-bottom: 4px;
     text-align: right;
     font-family: 'Times New Roman';
     font-weight: 400;
     font-size: 32px;
-
 }
 
 .about-hotel-logo {
@@ -43,13 +40,13 @@
     font-weight: 700;
     font-size: 64px;
     letter-spacing: 0.3em;
-    color: #494848;
+    color: var(--color-text-dark);
     padding-bottom: 24px;
     text-align: right;
 }
 
 .about-hotel-first-text {
-    color: #7A7A7A;
+    color: var(--color-text-base);
     font-weight: 600;
     box-sizing: unset;
     letter-spacing: .02em;
@@ -63,7 +60,7 @@
 }
 
 .about-hotel-second-text {
-    color: #C79002;
+    color: var(--color-text-brand);
     letter-spacing: .02em;
     font-size: 16px;
     font-weight: 600;
@@ -92,12 +89,15 @@
     outline: none;
     color: transparent;
     background-color: transparent;
-    color: black;
+    color: var(--color-black);
     margin-right: 33px;
+
+    transition: color 250ms var(--transition-timing-function);
 }
 
-.about-hotel-slider-button:hover {
-    color: #F3C653
+.about-hotel-slider-button:hover,
+.about-hotel-slider-button:focus {
+    color: var(--color-accent);
 }
 
 .svg-about-hotel {

@@ -16,7 +16,7 @@
     font-size: 32px;
     line-height: 1.15;
 
-    color: #B4B4B4;
+    color: var(--color-text-light);
 }
 
 .about-restaurant-title {
@@ -25,7 +25,7 @@
     font-size: 64px;
     line-height: 1.07;
     letter-spacing: 0.3em;
-    color: #494848;
+    color: var(--color-text-dark);
 
 }
 
@@ -37,7 +37,7 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.02em;
-    color: #7A7A7A;
+    color: var(--color-text-base);
 }
 
 
@@ -49,18 +49,27 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.02em;
-    color: #C79002;
+    color: var(--color-text-brand);
 }
 
 .about-restaurant-slider {
     display: flex;
 }
+
 .about-restaurant-arrows {
     display: flex;
     gap: 32px;
-    // margin-left: 1006px;
-    // margin-top: 143px;
-    // margin-right: 8px;
+    justify-content: flex-end;
+}
+
+.about-restaurant-arrow {
+    cursor: pointer;
+    fill: var(--color-black);
+    transition: fill 250ms var(--transition-timing-function);
+}
+
+.about-restaurant-arrow:hover {
+    fill: var(--color-accent);
 }
 
 @media screen and (max-width: 1023px) {
@@ -117,9 +126,6 @@
     .about-restaurant-slider-picture {
         min-width: 245px;
         min-height: 245px;
-    }
-    .about-restaurant-arrows {
-        margin-left: 286px;
     }
 }
 
@@ -184,6 +190,7 @@
     }
     .about-restaurant-arrows {
         margin-left: 781px;
+        justify-content: start;
     }
 }
 
@@ -235,6 +242,7 @@
         margin: 119px 0 36px 562px;
     }
     .about-restaurant-arrows {
-        margin-left: 1006px;
+        justify-content: flex-end;
+        margin-left: 0;
     }
 }
