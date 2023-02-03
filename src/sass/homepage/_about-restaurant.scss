@@ -73,8 +73,8 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .about-restaurant-container {
-        padding-top: 18px;
+    .about-restaurant-section{
+        padding-top: 16px;
         padding-bottom: 20px;
     }
 
@@ -130,7 +130,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .about-restaurant-container {
+    .about-restaurant-section {
         padding-top: 120px;
         padding-bottom: 32px;
     }
@@ -160,7 +160,7 @@
     .about-restaurant-image-text {
         // margin-left: 48px;
         margin-top: 196px;
-                justify-content: end;
+        justify-content: end;
         margin-left: 398px;
 
         font-size: 16px;
@@ -195,9 +195,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .about-restaurant-container {
-        padding-top: 120px;
-        // padding-bottom: 118px;
+    .about-restaurant-section {
         padding-bottom: 50px;
     }
 
