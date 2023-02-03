@@ -1,0 +1,302 @@
+.about-hotel {
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .about-hotel {
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-hotel {
+        padding-bottom: 50px;
+    }
+}
+
+.about {
+    position: relative;
+}
+
+.about-hotel-box {
+    padding-top: 28px;
+}
+
+.about-hotel {
+    background-color: var(--color-background-main);
+}
+
+.header-about-hotel {
+    color: var(--color-text-light);
+    padding-bottom: 4px;
+    text-align: right;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.about-hotel-logo {
+    font-family: 'FilmP3';
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 0.3em;
+    color: var(--color-text-dark);
+    padding-bottom: 24px;
+    text-align: right;
+}
+
+.about-hotel-first-text {
+    color: var(--color-text-base);
+    font-weight: 600;
+    box-sizing: unset;
+    letter-spacing: .02em;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.about-hotel-first-image {
+    width: 244px;
+    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+}
+
+.about-hotel-second-text {
+    color: var(--color-text-brand);
+    letter-spacing: .02em;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+    box-sizing: unset;
+}
+
+.about-hotel-second-image {
+    width: 200px;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-about-hotel {
+    display: flex;
+    flex-direction: row;
+}
+
+.slider-about-hotel-image {
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+}
+
+.about-hotel-slider-button {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: transparent;
+    background-color: transparent;
+    color: var(--color-black);
+    margin-right: 33px;
+
+    transition: color 250ms var(--transition-timing-function);
+}
+
+.about-hotel-slider-button:hover,
+.about-hotel-slider-button:focus {
+    color: var(--color-accent);
+}
+
+.svg-about-hotel {
+    width: 32px;
+    height: 32px;
+    fill: currentColor;
+}
+
+.svg-about-hotel:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1023.98px) {
+    .about-hotel-box {
+        padding-top: 18px;
+        padding-bottom: 28px;
+        margin-right: 15px;
+    }
+
+
+    .header-about-hotel {
+        font-size: 20px;
+    }
+
+    .about-hotel-logo {
+        font-size: 40px;
+        padding-bottom: 16px;
+    }
+
+
+    .about-hotel-first-text {
+        margin-left: 158px;
+        max-width: 242px;
+        font-size: 12px;
+    }
+
+    .about-hotel-first-image {
+        top: 220px;
+        left: 15px;
+    }
+
+    .about-hotel-second-text {
+        max-width: 163px;
+        font-size: 12px;
+        margin-right: auto;
+    }
+
+    .slider-about-hotel-image:first-child {
+        margin-left: 85px;
+
+    }
+
+    .slider-about-hotel-image:last-child {
+        position: absolute;
+        left: -180px;
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (max-width: 1023.98px) {
+    .about-hotel-first-text {
+        margin-left: auto;
+        max-width: 242px;
+        font-size: 12px;
+    }
+
+    .about-hotel-first-image {
+        margin-bottom: 32px;
+    }
+
+    .about-hotel-second {
+        display: flex;
+    }
+
+    .about-hotel-second-text {
+        max-width: 163px;
+        margin-top: 70px;
+    }
+
+    .slider-about-hotel {
+        padding-top: 32px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-hotel-box {
+        padding-top: 120px;
+        padding-bottom: 127px;
+    }
+
+    .header-about-hotel {
+        font-size: 32px;
+    }
+
+    .about-hotel-logo {
+        font-size: 64px;
+    }
+
+    .about-hotel-first-text {
+        margin-left: 558px;
+        max-width: 419px;
+        font-size: 16px;
+    }
+
+    .about-hotel-first-image {
+        position: absolute;
+        width: 400px;
+        top: -24px;
+        left: 112px;
+    }
+
+    .about-hotel-second-text {
+        margin-right: 398px;
+        margin-left: 220px;
+        padding-top: 211px;
+        max-width: 312px;
+        font-size: 16px;
+    }
+
+    .about-hotel-second-image {
+        position: absolute;
+        width: 350px;
+        left: 627px;
+        top: 476px;
+    }
+
+    .slider-about-hotel {
+        padding-top: 154px;
+    }
+
+    .slider-about-hotel-image {
+        margin-right: 40px;
+    }
+
+    .slider-about-hotel-image:first-child {
+        margin-left: 0;
+    }
+
+    .slider-about-hotel-image:last-child {
+        position: inherit;
+    }
+}
+
+
+@media (min-width: 1280px) {
+    .about-hotel-box {
+        padding-top: 120px;
+        padding-bottom: 127px;
+    }
+
+    .header-about-hotel {
+        font-size: 32px;
+    }
+
+    .about-hotel-logo {
+        font-size: 64px;
+    }
+
+    .about-hotel-first-text {
+        margin-left: 622px;
+        max-width: 488px;
+        font-size: 16px;
+
+    }
+
+    .about-hotel-first-image {
+        width: 460px;
+        top: -24px;
+        left: 180px;
+    }
+
+    .about-hotel-second-text {
+        margin-right: 505px;
+        margin-left: 294px;
+        padding-top: 211px;
+        max-width: 312px;
+        font-size: 16px;
+    }
+
+    .about-hotel-second-image {
+        width: 460px;
+        left: 735px;
+        top: 504px;
+    }
+
+    .slider-about-hotel {
+        padding-top: 104px;
+    }
+
+    .slider-about-hotel-image {
+        margin-right: 26px;
+    }
+
+    .slider-about-hotel-image:first-child {
+        margin-left: 0;
+    }
+
+    .slider-about-hotel-image:last-child {
+        position: inherit;
+    }
+}

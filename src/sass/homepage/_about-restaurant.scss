@@ -1,0 +1,246 @@
+.about-restaurant-section {
+    background-color: var(--color-background-main);
+    position: relative;
+}
+
+@media screen and (max-width: 1023.98px) {
+    .about-restaurant-section {
+        overflow: hidden;
+    }
+}
+
+.about-restaurant-little-title {
+
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.15;
+
+    color: var(--color-text-light);
+}
+
+.about-restaurant-title {
+    font-family: 'FilmP3';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.07;
+    letter-spacing: 0.3em;
+    color: var(--color-text-dark);
+
+}
+
+.about-restaurant-text {
+    margin-top: 12px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--color-text-base);
+}
+
+
+.about-restaurant-image-text {
+    margin-left: 20px;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--color-text-brand);
+}
+
+.about-restaurant-slider {
+    display: flex;
+}
+
+.about-restaurant-arrows {
+    display: flex;
+    gap: 32px;
+    justify-content: flex-end;
+}
+
+.about-restaurant-arrow {
+    cursor: pointer;
+    fill: var(--color-black);
+    transition: fill 250ms var(--transition-timing-function);
+}
+
+.about-restaurant-arrow:hover {
+    fill: var(--color-accent);
+}
+
+@media screen and (max-width: 1023px) {
+    .about-restaurant-section{
+        padding-top: 16px;
+        padding-bottom: 20px;
+    }
+
+    .about-restaurant-little-title {
+        font-size: 20px;
+        line-height: 1.15;
+    }
+
+    .about-restaurant-title {
+        margin-top: 12px;
+
+        font-size: 40px;
+        line-height: 1.07;
+    }
+
+    .about-restaurant-text {
+        max-width: 258px;
+        font-size: 12px;
+    }
+
+    .about-restaurant-image-text {
+        font-size: 12px;
+        max-width: 163px;
+    }
+
+    .about-restaurant-first-picture {
+        width: 244px;
+        margin-top: 28px;
+        margin-left: auto;
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+    }
+
+    .about-restaurant-second-picture {
+        margin-top: 32px;
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+    }
+
+    .about-restaurant-bottom {
+        display: flex;
+        align-items: center;
+    }
+
+        .about-restaurant-slider {
+        margin-left: 69px;
+        margin-top: 32px;
+        margin-bottom: 20px;
+        gap: 25px;
+    }
+    .about-restaurant-slider-picture {
+        min-width: 245px;
+        min-height: 245px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .about-restaurant-section {
+        padding-top: 120px;
+        padding-bottom: 32px;
+    }
+
+    .about-restaurant-top {
+        display: flex;
+        align-items: center;
+    }
+
+    .about-restaurant-bottom {
+        display: flex;
+    }
+
+    .about-restaurant-title {
+        margin-top: 4px;
+
+    }
+
+    .about-restaurant-text {
+        margin-top: 24px;
+        margin-bottom: 142px;
+
+        max-width: 439px;
+        margin-right: 26px;
+    }
+
+    .about-restaurant-image-text {
+        // margin-left: 48px;
+        margin-top: 196px;
+        justify-content: end;
+        margin-left: 398px;
+
+        font-size: 16px;
+        max-width: 312px;
+    }
+
+    .about-restaurant-first-picture {
+        position: absolute;
+        left: 50%;
+        top: -32px;
+        width: 400px;
+        height: 524px;
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+    }
+
+    .about-restaurant-second-picture {
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+    }
+        .about-restaurant-slider {
+        gap: 40px;
+        margin-top: 154px;
+        margin-left: 451px;
+        margin-bottom: 39px;
+    }
+    .about-restaurant-second-picture {
+        position: absolute;
+    }
+    .about-restaurant-arrows {
+        margin-left: 781px;
+        justify-content: start;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-restaurant-section {
+        padding-bottom: 50px;
+    }
+
+    .about-restaurant-top {
+        display: flex;
+        align-items: center;
+    }
+
+    .about-restaurant-bottom {
+        display: flex;
+    }
+
+    .about-restaurant-little-title {
+        max-width: 304px;
+    }
+
+    .thumb {
+        margin-right: 37px;
+    }
+
+    .about-restaurant-text {
+        margin-bottom: 162px;
+        max-width: 518px;
+    }
+
+    .about-restaurant-image-text {
+        max-width: 312px;
+        // margin-left: 32px;
+        margin-left: 492px;
+        margin-top: 186px;
+    }
+
+    .about-restaurant-picture {
+        margin-left: 37px;
+    }
+
+    .about-restaurant-first-picture {
+        top: -33px;
+        width: 460px;
+    }
+    .about-restaurant-slider {
+        margin: 119px 0 36px 562px;
+    }
+    .about-restaurant-arrows {
+        justify-content: flex-end;
+        margin-left: 0;
+    }
+}

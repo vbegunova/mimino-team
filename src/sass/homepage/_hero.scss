@@ -1,0 +1,336 @@
+.restaurant-hero-first{
+    padding-top: 64px;
+    padding-bottom: 21px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        var(--color-background-tint),
+        var(--color-background-tint)
+    );
+     /* Mobile screen <=414px */
+     background-image: linear-gradient(var(--color-background-tint), var(--color-background-tint)),
+   url(/src/images/homepage/hero/hero-img_mob@1x.jpg);
+  }
+
+@media screen and (min-width: 1024px) {
+    .restaurant-hero-first {
+        padding-top: 100px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .restaurant-hero-first {
+        padding-bottom: 65px;
+    }
+}
+
+  @media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.restaurant-hero-first {
+     background-image: linear-gradient(var(--color-background-tint), var(--color-background-tint)), 
+     url(/src/images/homepage/hero/hero-img_mob@2x.jpg);
+    }
+}
+/* Mobile screen >=414px */
+@media screen and (min-width:414px) {
+    .restaurant-hero-first {
+        background-image: linear-gradient(var(--color-background-tint), var(--color-background-tint)),
+        url(/src/images/homepage/hero/hero-img_tab@1x.jpg);
+    }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 414px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 414px),
+screen and (min-resolution: 192dpi) and (min-width: 414px),
+screen and (min-resolution: 2dppx) and (min-width: 414px) {
+    .restaurant-hero-first {
+        background-image: linear-gradient(var(--color-background-tint), var(--color-background-tint)),
+        url(/src/images/homepage/hero/hero-img_tab@2x.jpg);
+    }
+}
+/* screen >1024px */
+@media screen and (min-width:1024px) {
+    .restaurant-hero-first {
+        background-image: linear-gradient(var(--color-background-tint), var(--color-background-tint)),
+        url(/src/images/homepage/hero/hero-img_desk@1x.jpg);
+    }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1024px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px),
+screen and (min-resolution: 192dpi) and (min-width: 1024px),
+screen and (min-resolution: 2dppx) and (min-width: 1024px) {
+    .restaurant-hero-first {
+        background-image: linear-gradient(var(--color-background-tint), var(--color-background-tint)),
+        url(/src/images/homepage/hero/hero-img_desk@2x.jpg);
+    }
+}
+
+.restaurant-hero-container {
+    position: relative;
+    padding-top: 117px;
+}
+
+@media screen and (min-width: 1024px) {
+    .restaurant-hero-container {
+        padding-top: 88px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .restaurant-hero-container {
+        padding-top: 64px;
+    }
+}
+
+.hero-restaurant-first {
+    position: absolute;
+    padding: 8px 7px 9px 6px;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    border: 1px solid var(--color-icon-accent);
+}
+
+@media screen and (max-width: 1023.98px) {
+    .hero-restaurant-first {
+        top: 0;
+        right: 15px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .hero-restaurant-first {
+        padding: 8px 16px 8px 10px;
+        bottom: 49px;
+        left: 47px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-restaurant-first {
+        bottom: 0px;
+        left: 85px;
+    }
+}
+
+.hero-restaurant-svg {
+    fill: var(--color-accent);
+    width: 20px;
+    height: 20px;
+
+    transition: fill 250ms var(--transition-timing-function);
+}
+
+.social-media-homepage-item:hover .hero-restaurant-svg,
+.social-media-homepage-item:focus .hero-restaurant-svg {
+    fill: var(--color-icon-accent);
+}
+
+@media screen and (min-width:1024px) {
+    .hero-restaurant-svg {
+    width: 24px;
+    height: 24px;
+    }
+}
+
+.hero-homepage-location-pin {
+    fill: var(--color-accent);
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-homepage-location-pin {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+// .adress-hero-restaurant {
+//     color: #E5E5E5;
+//     padding-left: 28px;
+//     display: block;
+//     font-family: Montserrat;
+//     font-size: 12px;
+//     line-height: 15px;
+//     height: 47px;
+//     padding-top: 8px;
+//     padding-bottom: 9px;
+// }
+// @media screen and (min-width:1024px){
+//     .adress-hero-restaurant {
+//     font-weight: 400;
+//     font-size: 16px;
+//     line-height: 20px;
+//     letter-spacing: 0.01em;
+//     color: #E5E5E5;  
+//     }
+// }
+
+.adress-hero-restaurant {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(15/12);
+    letter-spacing: 0.01em;
+
+    color: var(--color-text-silver);
+}
+
+@media screen and (min-width: 1024px) {
+    .adress-hero-restaurant {
+        font-size: 16px;
+        line-height: calc(20/16);
+    }
+}
+
+.hero-restaurant-title {
+    text-indent: -0.3em;
+    direction: rtl;
+    letter-spacing: .3em;
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-family: 'FilmP3';
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1.08333;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 357px) {
+    .hero-restaurant-title {
+        font-size: 86px;
+    }
+}
+@media screen and (min-width:1024px){
+    .hero-restaurant-title {
+        margin-bottom: 16px;
+        font-size: 128px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width:1280px) {
+    .hero-restaurant-title {
+        margin-bottom: 32px;
+    }
+}
+.hero-restaurant-name-service {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+@media screen and (min-width:1024px){
+    .hero-restaurant-name-service {
+    font-size: 20px;
+    margin-bottom: 56px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .hero-restaurant-name-service {
+        margin-bottom: 64px;
+    }
+}
+.hero-restaurant-name-service-sl {
+    text-align: center;
+    height: 37px;
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: calc(37/32);
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-bottom: 113px;
+}
+@media screen and (min-width:1024px){
+    .hero-restaurant-name-service-sl {
+        font-size: 36px;
+        margin-bottom: 145px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .hero-restaurant-name-service-sl {
+        margin-bottom: 144px;
+    }
+}
+.hero-restaurant-buttons {
+    text-align: center;
+}
+@media screen and (min-width:1024px){
+    .hero-restaurant-buttons {
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: end;
+        column-gap: 40px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .hero-restaurant-buttons {
+        margin-bottom: 0;
+        gap: 60px;
+    }
+}
+.button-style-hero-restaurant {
+    box-sizing: border-box;
+    width: 232px;
+    height: 48px;
+    background-color: var(--color-background-button);
+    border: 2px solid var(--color-white);
+    border-radius: 25px;
+    margin-bottom: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: var(--color-accent);
+
+    transition: background-color 250ms var(--transition-timing-function), border 250ms var(--transition-timing-function);
+}
+    
+.button-style-hero-restaurant:hover,
+.button-style-hero-restaurant:focus {
+    background-color: var(--color-white);
+    border: 2px solid var(--color-accent);
+}
+
+@media screen and (min-width:1024px){
+    .button-style-hero-restaurant {
+    margin-bottom: 0;
+    }
+} 
+@media screen and (min-width:1280px) {
+    .button-style-hero-restaurant {
+        width: 258px;
+    }
+}
+.social-media-hero-restaurant {
+    display: flex;
+    gap: 24px;
+    width: 112px;
+    height: 24px;
+    margin-top: 34px;
+}
+@media screen and (min-width:1024px){
+    .social-media-hero-restaurant {
+        margin-top: 0;
+        margin-left: 0;
+        padding-left: 0px;
+    }
+}
+@media screen and (min-width:1280px){
+    .social-media-hero-restaurant {
+        display: none;
+    }
+}

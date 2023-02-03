@@ -11,41 +11,22 @@
             veniam consequat sunt nostrud amet.
           </p>
         </div>
-        <picture class="man-img">
-          <source
-            srcset="
-              ././images/restaurant/about-kitchen-1_460.jpg 1x,
-              ././images/restaurant/about-kitchen-1_920.jpg 2x
-            "
-            media="(min-width: 1280px)"
-            width="460"
-            height="574"
-          />
-          <source
-            srcset="
-              ././images/restaurant/about-kitchen-1_400.jpg 1x,
-              ././images/restaurant/about-kitchen-1_800.jpg 2x
-            "
-            media="(min-width: 1024px)"
-            width="400"
-            height="524"
-          />
-          <source
-            srcset="
-              ././images/restaurant/about-kitchen-1_244.jpg 1x,
-              ././images/restaurant/about-kitchen-1_488.jpg 2x
-            "
-            media="(max-width: 414px)"
-            width="244"
-            height="322"
-          />
-          <img
-            class="man-img"
-            src="././images/restaurant/about-kitchen-1_244.jpg"
-            alt="Chris standing up holding his daughter Elva"
-            width="244"
-          />
-        </picture>
+        <img
+          class="man-img"
+          srcset="
+            ./images/restaurant/about-kitchen-1_244.jpg 244w,
+            ./images/restaurant/about-kitchen-1_488.jpg 488w,
+            ./images/restaurant/about-kitchen-1_400.jpg 400w,
+            ./images/restaurant/about-kitchen-1_800.jpg 800w,
+            ./images/restaurant/about-kitchen-1_460.jpg 460w,
+            ./images/restaurant/about-kitchen-1_920.jpg 920w
+          "
+          sizes="(min-width: 1280px) 460px, (min-width: 1024px) 400px, (min-width: 414px) 244px, 100vw"
+          src="./images/restaurant/about-kitchen-1_460.jpg"
+          alt="Повар"
+          width="460"
+          height="574"
+        />
       </div>
       <div class="box-buttom">
         <picture>
@@ -79,7 +60,7 @@
           <img
             class="meet-img"
             src="././images/restaurant/about-kitchen-2_200.jpg"
-            alt="Chris standing up holding his daughter Elva"
+            alt="Стейк"
             width="200"
           />
         </picture>
@@ -88,6 +69,84 @@
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
         </p>
+      </div>
+      <div class="about-kitchen-slider">
+        <picture>
+          <source
+            srcset="
+              /src/images/restaurant/slider/about-kitchen-slider-1_254.jpg 1x,
+              /src/images/restaurant/slider/about-kitchen-slider-1_508.jpg 2x
+            "
+            media="(min-width: 1280px)"
+            width="254"
+            height="254"
+          />
+          <source
+            srcset="
+              /src/images/restaurant/slider/about-kitchen-slider-1_194.jpg 1x,
+              /src/images/restaurant/slider/about-kitchen-slider-1_388.jpg 2x
+            "
+            media="(min-width: 1024px)"
+            width="194"
+            height="194"
+          />
+          <source
+            srcset="
+              /src/images/restaurant/slider/about-kitchen-slider-1_245.jpg 1x,
+              /src/images/restaurant/slider/about-kitchen-slider-1_490.jpg 2x
+            "
+            media="(max-width: 414px)"
+            width="245"
+            height="245"
+          />
+          <img
+            src="/src/images/restaurant/slider/about-kitchen-slider-1_245.jpg"
+            alt="about kitchen first slider"
+            class="about-kitchen-slider-picture"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="
+              /src/images/restaurant/slider/about-kitchen-slider-2_254.jpg 1x,
+              /src/images/restaurant/slider/about-kitchen-slider-2_508.jpg 2x
+            "
+            media="(min-width: 1280px)"
+            width="254"
+            height="254"
+          />
+          <source
+            srcset="
+              /src/images/restaurant/slider/about-kitchen-slider-2_194.jpg 1x,
+              /src/images/restaurant/slider/about-kitchen-slider-2_388.jpg 2x
+            "
+            media="(min-width: 1024px)"
+            width="194"
+            height="194"
+          />
+          <source
+            srcset="
+              /src/images/restaurant/slider/about-kitchen-slider-2_245.jpg 1x,
+              /src/images/restaurant/slider/about-kitchen-slider-2_490.jpg 2x
+            "
+            media="(max-width: 414px)"
+            width="245"
+            height="245"
+          />
+          <img
+            src="/src/images/restaurant/slider/about-kitchen-slider-2_245.jpg"
+            alt="about kitchen second slider"
+            class="about-kitchen-slider-picture"
+          />
+        </picture>
+      </div>
+      <div class="about-kitchen-arrows">
+        <svg class="about-kitchen-arrow" width="32px" height="32px">
+          <use href="/src/images/icons.svg#arrow-left"></use>
+        </svg>
+        <svg class="about-kitchen-arrow" width="32px" height="32px">
+          <use href="/src/images/icons.svg#arrow-right"></use>
+        </svg>
       </div>
     </div>
   </div>
