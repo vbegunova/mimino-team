@@ -199,11 +199,14 @@ screen and (min-width: 1025px) and (min-resolution: 2dppx) {
     }
 }
 
+.restaurant-hero__link {
+    display: inline-block;
+}
+
 .restaurant-hero__button {
     padding: 14px 24px;
 
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(20/16);
@@ -237,8 +240,8 @@ screen and (min-width: 1025px) and (min-resolution: 2dppx) {
 }
 
 @media screen and (max-width: 1023.98px) {
-    .restaurant-hero__button+.restaurant-hero__button {
-        margin-top: 24px;
+    .restaurant-hero__button {
+        margin-bottom: 24px;
     }
 }
 
