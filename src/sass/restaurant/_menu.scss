@@ -1,19 +1,13 @@
 .background-menu {
+    padding-top: 32px;
+      padding-bottom: 32px;
   background-color: var(--color-background-main);
 }
 @media (min-width: 1024px) {
   .background-menu {
+        padding-top: 58px;
+          padding-bottom: 40px;
     background-color: var(--color-background-dark);
-  }
-}
-.restaurant-menu {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-@media (min-width: 1024px) {
-  .restaurant-menu {
-    padding-top: 58px;
-    padding-bottom: 40px;
   }
 }
 
