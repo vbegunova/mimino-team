@@ -5,6 +5,12 @@
   padding-bottom: 20px;
 }
 
+@media (max-width: 1023.98px) {
+  .background-kitchen {
+    overflow: hidden;
+  }
+}
+
 @media (min-width: 1024px) {
   .background-kitchen {
     padding-top: 120px;
@@ -18,14 +24,6 @@
   }
 }
 
-.restaurant {
-  // padding-bottom: 28px;
-}
-@media (min-width: 1024px) {
-  .restaurant {
-    padding-bottom: 96px;
-  }
-}
 @media (min-width: 1024px) {
   .box-top {
     display: flex;
@@ -154,5 +152,75 @@
 @media (min-width: 1280px) {
   .rest-info {
     margin-top: 188px;
+  }
+}
+
+
+
+
+
+.about-kitchen-slider {
+    display: flex;
+}
+
+.about-kitchen-arrows {
+    display: flex;
+    gap: 32px;
+    justify-content: flex-end;
+}
+
+.about-kitchen-arrow {
+    cursor: pointer;
+    fill: var(--color-black);
+    transition: fill 250ms var(--transition-timing-function);
+}
+
+.about-kitchen-arrow:hover {
+    fill: var(--color-accent);
+}
+
+
+// to 1023
+
+        .about-kitchen-slider {
+        margin-left: 69px;
+        margin-top: 32px;
+        margin-bottom: 20px;
+        gap: 25px;
+    }
+    .about-kitchen-slider-picture {
+        min-width: 245px;
+        min-height: 245px;
+    }
+
+    // from 1024
+
+@media screen and (min-width: 1024px) {
+  .about-kitchen-slider {
+    gap: 40px;
+    margin-top: -28px;
+    justify-content: flex-end;
+    margin-right: 12px;
+    margin-bottom: 39px;
+  }
+
+  .about-kitchen-second-picture {
+    position: absolute;
+  }
+
+  .about-kitchen-arrows {
+    justify-content: flex-end;
+    margin-right: 12px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-kitchen-slider {
+    margin: -151px 0 36px 562px;
+  }
+
+  .about-kitchen-arrows {
+    justify-content: flex-end;
+    margin-left: 0;
   }
 }
