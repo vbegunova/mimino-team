@@ -191,6 +191,7 @@
     .about-kitchen-slider-picture {
         min-width: 245px;
         min-height: 245px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
 
     // from 1024
@@ -212,6 +213,11 @@
     justify-content: flex-end;
     margin-right: 12px;
   }
+
+  .about-kitchen-slider-picture {
+    min-width: 194px;
+    min-height: 194px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -222,5 +228,10 @@
   .about-kitchen-arrows {
     justify-content: flex-end;
     margin-left: 0;
+  }
+
+  .about-kitchen-slider-picture {
+    min-width: 254px;
+    min-height: 254px;
   }
 }
